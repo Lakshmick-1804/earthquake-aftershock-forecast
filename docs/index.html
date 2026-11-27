@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12294a">
+  <meta name="description" content="A prototype aftershock outlook workspace driven by the USGS Earthquake Catalog CSV, with a local-only relief and recovery checklist.">
+  <title>Aftershock Forecast Studio · USGS catalog prototype</title>
+  <link rel="stylesheet" href="styles.css?v=20261127k">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to forecast workspace</a>
+  <a class="skip-link skip-link-alt" href="#relief">Skip to relief and recovery</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" focusable="false">
+          <path d="M3 25.5c5.8-1.2 7.3-10.8 13-11.8 4.3-.8 7.2-4.2 9.5-8.2" fill="none" stroke="#12294a" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M7 26.5c2.4-4.4 4.8-7.3 9.2-9.1" fill="none" stroke="#2f6f7e" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="16" cy="13.7" r="2.5" fill="#c4703a"/>
+        </svg>
+      </span>
+      <span class="brand-copy">
+        <span class="brand-name">Aftershock <em>Forecast Studio</em></span>
+        <span class="brand-sub">USGS catalog · prototype workspace</span>
+      </span>
+    </div>
+
+    <div class="header-meta">
+      <span class="status-pill" id="sourcePill"><span class="status-dot" aria-hidden="true"></span> USGS catalog · prototype</span>
+      <span class="header-context" id="headerContext">Loading CSV catalog…</span>
+    </div>
+
+    <div class="header-actions">
+      <a class="button button-quiet" href="#relief">Relief &amp; recovery</a>
+      <button class="button button-quiet" id="methodOpen" type="button">Method &amp; limits</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="control-rail" aria-label="Catalog and scenario controls">
+      <section class="rail-section data-section" aria-labelledby="catalogTitle">
+        <p class="rail-kicker" id="catalogTitle">Dataset source</p>
+        <h2>USGS Earthquake Catalog</h2>
+        <p class="rail-note">CSV rows are read in the browser. A bundled USGS snapshot is used if the live feed is unavailable.</p>
+
+        <div class="field-group">
+          <label class="field-label" for="catalogFeed">CSV feed</label>
+          <select id="catalogFeed" name="catalogFeed">
+            <option value="live-week" selected>Live · past week</option>
+            <option value="live-day">Live · past day</option>
+            <option value="live-month">Live · past month</option>
+            <option value="bundled">Bundled snapshot · past week</option>
+          </select>
+        </div>
+
+        <div class="catalog-actions">
+          <button class="catalog-button" id="loadCatalog" type="button">Load catalog</button>
+          <input class="file-input" id="catalogFile" type="file" accept=".csv,text/csv">
+          <label class="catalog-button catalog-button-quiet" for="catalogFile">Import CSV</label>
+        </div>
+
+        <p class="catalog-status" id="catalogStatus" data-status="loading" aria-live="polite">Loading USGS CSV…</p>
+
+        <div class="field-group mainshock-field">
+          <label class="field-label" for="mainshockSelect">Mainshock from catalog</label>
+          <select id="mainshockSelect" name="mainshockSelect" disabled>
+            <option>Waiting for catalog…</option>
+          </select>
+          <p class="field-help" id="mainshockHelp">The largest earthquake in the loaded CSV is selected first.</p>
+        </div>
+      </section>
+
+      <form id="scenarioForm" class="control-form" novalidate>
+        <div class="rail-head">
+          <p class="rail-kicker">Scenario input</p>
+          <h2>Adjust the mainshock</h2>
+          <p class="rail-note">Values are prefilled from the selected USGS event. Adjust them to explore a different baseline scenario.</p>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="region">Region context</label>
+          <select id="region" name="region">
+            <option value="catalog" selected>USGS catalog event</option>
+            <option value="japan">Japan Trench</option>
+            <option value="chile">Chile Margin</option>
+            <option value="california">California</option>
+          </select>
+          <p class="field-help" id="coords">Waiting for a catalog event…</p>
+        </div>
+
+        <div class="field-group">
+          <div class="field-row">
+            <label class="field-label" for="magnitude">Mainshock magnitude</label>
+            <output class="field-value" id="magnitudeOut" for="magnitude">M 6.4</output>
+          </div>
+          <input id="magnitude" name="magnitude" type="range" min="3" max="9" step="0.1" value="6.4">
+          <div class="range-scale" aria-hidden="true"><span>3.0</span><span>6.0</span><span>9.0</span></div>
+        </div>
+
+        <div class="field-grid">
+          <label class="field-label" for="depth">
+            Depth
+            <span class="input-unit">
+              <input id="depth" name="depth" type="number" min="0" max="700" step="1" value="28">
+              <span>km</span>
+            </span>
+          </label>
+          <label class="field-label" for="elapsed">
+            Hours since mainshock
+            <span class="input-unit">
+              <input id="elapsed" name="elapsed" type="number" min="0" max="720" step="1" value="6">
+              <span>h</span>
+            </span>
+          </label>
+        </div>
+
+        <fieldset class="field-group segmented-field">
+          <legend class="field-label">Forecast window</legend>
+          <div class="segmented">
+            <label><input type="radio" name="window" value="24h"><span>24 h</span></label>
+            <label><input type="radio" name="window" value="7d" checked><span>7 days</span></label>
+            <label><input type="radio" name="window" value="30d"><span>30 days</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field-group preset-block">
+          <p class="field-label">Schematic presets</p>
+          <div class="preset-list">
+            <button class="preset" type="button" data-preset="japan">
+              <span class="preset-name">Japan Trench</span>
+              <span class="preset-meta">M 6.4 · 28 km</span>
+            </button>
+            <button class="preset" type="button" data-preset="chile">
+              <span class="preset-name">Chile Margin</span>
+              <span class="preset-meta">M 7.2 · 35 km</span>
+            </button>
+            <button class="preset" type="button" data-preset="california">
+              <span class="preset-name">California</span>
+              <span class="preset-meta">M 5.8 · 12 km</span>
+            </button>
+          </div>
+        </div>
+
+        <button class="run-button" id="runButton" type="submit">
+          <span>Run outlook</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M4 10h11M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <p class="rail-footnote">The default engine is a prototype Random Forest trained on USGS CSV data. It is not a validated prediction. See <button type="button" class="inline-link" id="methodOpenInline">Method &amp; limits</button>.</p>
+      </form>
+
+      <section class="rail-section" aria-labelledby="layersTitle">
+        <p class="rail-kicker" id="layersTitle">Map layers</p>
+        <label class="switch-row">
+          <input type="checkbox" id="layerGrid" checked>
+          <span class="switch-ui" aria-hidden="true"></span>
+          <span>Distance grid</span>
+        </label>
+        <label class="switch-row">
+          <input type="checkbox" id="layerEvents" checked>
+          <span class="switch-ui" aria-hidden="true"></span>
+          <span>Catalog events</span>
+        </label>
+        <label class="switch-row">
+          <input type="checkbox" id="layerFault" checked>
+          <span class="switch-ui" aria-hidden="true"></span>
+          <span>Inferred trend</span>
+        </label>
+      </section>
+
+      <section class="rail-section engine-box" aria-labelledby="engineTitle">
+        <p class="rail-kicker" id="engineTitle">Forecast engine</p>
+        <label class="engine-label" for="engineSelect">Active model</label>
+        <select class="engine-select" id="engineSelect" name="engineSelect">
+          <option value="ml" selected>Trained Random Forest v1.0</option>
+          <option value="baseline">Catalog-calibrated baseline v0.2</option>
+        </select>
+        <div class="engine-row">
+          <strong id="engineName">Trained Random Forest</strong>
+          <span class="engine-version" id="engineVersion">v1.0</span>
+        </div>
+        <p class="engine-metrics" id="engineMetrics">Loading local model validation…</p>
+        <p class="rail-note">The Random Forest is bundled as JSON and evaluated in this browser. It learns aftershock productivity from USGS CSV rows; the transparent baseline remains available for comparison.</p>
+        <p class="engine-status" id="engineStatus" aria-live="polite">Loading local Random Forest…</p>
+      </section>
+    </aside>
+
+    <section class="workspace" id="workspace">
+      <div class="workspace-head">
+        <div class="workspace-title">
+          <p class="eyebrow" id="runLabel">Catalog outlook · initialising</p>
+          <h1 id="scenarioTitle">Loading USGS catalog…</h1>
+          <p class="scenario-sub" id="scenarioSub">Reading the CSV feed and selecting a mainshock</p>
+        </div>
+        <div class="workspace-actions" aria-label="Export forecast">
+          <button class="button button-soft" id="exportPng" type="button">
+            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 3v9m0 0 3.5-3.5M10 12 6.5 8.5M4 14v2.5h12V14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Export map PNG
+          </button>
+          <button class="button button-soft" id="exportCsv" type="button">
+            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 3h7l3 3v11H5zM12 3v3h3M7.5 10h5M7.5 13h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Export grid CSV
+          </button>
+        </div>
+      </div>
+
+      <div class="data-banner" id="dataBanner" data-status="loading">
+        <span class="data-banner-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M4 6.5h16v11H4zM4 10h16M8 6.5v11M16 6.5v11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <div class="data-banner-copy">
+          <p class="data-banner-title" id="dataBannerTitle">Loading USGS Earthquake Catalog CSV…</p>
+          <p class="data-banner-sub" id="dataBannerSub">The bundled snapshot will be used if the live feed cannot be reached.</p>
+        </div>
+        <button class="button button-soft" id="exportObservedCsv" type="button" disabled>Export observed CSV</button>
+      </div>
+
+      <p class="sr-only" id="srStatus" aria-live="polite"></p>
+
+      <div class="stat-grid" aria-label="Outlook summary">
+        <article class="stat-card stat-peak">
+          <p class="stat-label">Peak cell estimate</p>
+          <p class="stat-value"><span id="statPeak">—</span><span class="stat-unit">%</span></p>
+          <p class="stat-note" id="statPeakNote">Highest modelled chance of ≥1 M3+ event</p>
+        </article>
+        <article class="stat-card stat-events">
+          <p class="stat-label">Expected aftershocks</p>
+          <p class="stat-value"><span id="statExpected">—</span><span class="stat-unit">M≥3</span></p>
+          <p class="stat-note" id="statExpectedNote">Catalog-scaled estimate in the window</p>
+        </article>
+        <article class="stat-card stat-area">
+          <p class="stat-label">High-probability area</p>
+          <p class="stat-value"><span id="statHigh">—</span><span class="stat-unit">km²</span></p>
+          <p class="stat-note" id="statHighNote">Cells at or above 50%</p>
+        </article>
+        <article class="stat-card stat-zone">
+          <p class="stat-label">Top priority zone</p>
+          <p class="stat-value stat-value-zone" id="statZone">—</p>
+          <p class="stat-note" id="statZoneNote">Relative estimate, not an alert level</p>
+        </article>
+      </div>
+
+      <section class="map-card" aria-labelledby="mapTitle">
+        <div class="card-head map-head">
+          <div>
+            <h2 id="mapTitle">Spatial probability surface</h2>
+            <p class="card-sub">Estimated chance of at least one M≥3 aftershock per 3 km cell · USGS events shown as dots</p>
+          </div>
+          <span class="card-tag card-tag-strong">Model estimate</span>
+        </div>
+        <div class="canvas-wrap" id="mapWrap">
+          <canvas id="mapCanvas" role="img" aria-label="Aftershock probability map"></canvas>
+          <div class="map-tooltip" id="mapTooltip" hidden></div>
+          <p class="map-hint">Hover a cell to inspect probability and expected count</p>
+        </div>
+        <div class="map-foot">
+          <p><span class="foot-dot" aria-hidden="true"></span><span id="mapFootText">Forecast heatmap · waiting for catalog events</span></p>
+          <p class="map-foot-grid">40 × 25 cells · 9 km² each · extent ±60 km E / ±37.5 km N</p>
+        </div>
+      </section>
+
+      <div class="lower-grid">
+        <section class="panel priority-panel" aria-labelledby="priorityTitle">
+          <div class="card-head">
+            <div>
+              <h2 id="priorityTitle">Priority zones</h2>
+              <p class="card-sub">Sector and distance bands ranked by the modelled chance of at least one M≥3 event.</p>
+            </div>
+            <span class="card-tag">Top 5</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Zone</th>
+                  <th scope="col">P(≥1)</th>
+                  <th scope="col">Expected</th>
+                  <th scope="col">Relative priority</th>
+                </tr>
+              </thead>
+              <tbody id="priorityBody"></tbody>
+            </table>
+          </div>
+          <p class="table-note" id="priorityNote">Rankings use scenario-relative thresholds. They are not validated alert levels.</p>
+        </section>
+
+        <section class="panel rate-panel" aria-labelledby="rateTitle">
+          <div class="card-head">
+            <div>
+              <h2 id="rateTitle">Expected daily rate</h2>
+              <p class="card-sub">Omori-type decay, scaled by observed catalog counts.</p>
+            </div>
+            <span class="card-tag" id="rateMax">Peak —/day</span>
+          </div>
+          <div class="chart-wrap">
+            <div class="chart-bars" id="rateBars" role="img" aria-label="Expected daily aftershock rate over the next 30 days"></div>
+          </div>
+          <div class="chart-axis" aria-hidden="true">
+            <span>Day 1</span><span>Day 10</span><span>Day 20</span><span>Day 30</span>
+          </div>
+          <p class="table-note" id="rateNote">Bars show modelled M≥3 counts per day, not observations.</p>
+        </section>
+      </div>
+
+      <section class="panel evidence-panel" aria-labelledby="evidenceTitle">
+        <div class="card-head">
+          <div>
+            <h2 id="evidenceTitle">Catalog evidence</h2>
+            <p class="card-sub">Observed USGS rows around the selected mainshock, not model output.</p>
+          </div>
+          <span class="card-tag">Observed</span>
+        </div>
+        <p class="evidence-summary" id="evidenceSummary">Waiting for a catalog event…</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Time (UTC)</th>
+                <th scope="col">Mag</th>
+                <th scope="col">Depth</th>
+                <th scope="col">Distance</th>
+                <th scope="col">Place</th>
+                <th scope="col">USGS</th>
+              </tr>
+            </thead>
+            <tbody id="observedBody"></tbody>
+          </table>
+        </div>
+        <p class="table-note" id="evidenceNote">Only earthquakes within the search radius are listed. Quarry blasts and explosions are excluded.</p>
+      </section>
+
+      <section class="panel comparison-panel" id="comparison" aria-labelledby="comparisonTitle">
+        <div class="card-head">
+          <div>
+            <h2 id="comparisonTitle">AI vs earlier manual method</h2>
+            <p class="card-sub">A preserved 118-earthquake comparison: neural-network predictions, the earlier stress-pattern baseline, and the observed aftershock cloud.</p>
+          </div>
+          <span class="card-tag">Historical benchmark</span>
+        </div>
+        <div class="comparison-controls">
+          <div>
+            <label class="field-label" for="comparisonEvent">Historical mainshock</label>
+            <select class="comparison-select" id="comparisonEvent" name="comparisonEvent" disabled>
+              <option>Loading comparison data…</option>
+            </select>
+            <p class="field-help" id="comparisonHelp">Ready-made figures from the original benchmark dataset.</p>
+          </div>
+        </div>
+
+        <div class="comparison-metrics" aria-label="Comparison scores for the selected event">
+          <article class="comparison-metric">
+            <p class="stat-label">AI score (this event)</p>
+            <p class="comparison-metric-value" id="comparisonAiScore">—</p>
+            <p class="stat-note">ROC-AUC · 1.0 perfect, 0.5 random</p>
+          </article>
+          <article class="comparison-metric">
+            <p class="stat-label">Manual method score</p>
+            <p class="comparison-metric-value" id="comparisonManualScore">—</p>
+            <p class="stat-note">Earlier simplified stress-pattern baseline</p>
+          </article>
+          <article class="comparison-metric">
+            <p class="stat-label">Observed aftershocks</p>
+            <p class="comparison-metric-value" id="comparisonAftershocks">—</p>
+            <p class="stat-note">Rows used to build the historical grid</p>
+          </article>
+        </div>
+
+        <div class="comparison-grid">
+          <figure class="comparison-figure">
+            <img id="comparisonAiImg" src="assets/comparison/placeholder-ai.png?v=20261127k" alt="AI prediction heatmap for the selected historical earthquake">
+            <figcaption><strong>AI prediction</strong><span>Brighter cells are higher predicted likelihood.</span></figcaption>
+          </figure>
+          <figure class="comparison-figure">
+            <img id="comparisonManualImg" src="assets/comparison/placeholder-manual.png?v=20261127k" alt="Earlier manual method prediction heatmap for the selected historical earthquake">
+            <figcaption><strong>Earlier manual method</strong><span>Simplified stress-pattern baseline.</span></figcaption>
+          </figure>
+          <figure class="comparison-figure">
+            <img id="comparisonActualImg" src="assets/comparison/placeholder-actual.png?v=20261127k" alt="Observed aftershock locations for the selected historical earthquake">
+            <figcaption><strong>What really happened</strong><span>Yellow cells contain observed aftershocks.</span></figcaption>
+          </figure>
+        </div>
+        <p class="comparison-summary" id="comparisonSummary">Loading 118-event benchmark summary…</p>
+        <p class="table-note">Historical benchmark only. Fault strike and stress values are simplified estimates, and the comparison is not a validation of operational forecasting.</p>
+      </section>
+
+      <div class="workspace-foot">
+        <p>Prototype decision-support concept. Outputs are model-derived estimates from a CSV catalog, not observed forecasts, and must not be used for emergency response or public-safety decisions.</p>
+        <button class="text-button" id="methodOpenFooter" type="button">Read the method and limitations →</button>
+      </div>
+
+      <section class="relief-section" id="relief" aria-labelledby="reliefTitle">
+        <div class="relief-head">
+          <div>
+            <p class="eyebrow">Support after shaking</p>
+            <h2 id="reliefTitle">Relief &amp; recovery</h2>
+            <p class="relief-intro">Use official channels for urgent help. This section only stores a checklist in this browser; it does not send requests to any agency.</p>
+          </div>
+          <span class="card-tag">Local tool · not dispatch</span>
+        </div>
+
+        <div class="relief-emergency" role="note">
+          <span class="relief-emergency-icon" aria-hidden="true">!</span>
+          <p><strong>If anyone is injured or in immediate danger, call your local emergency number first</strong> (such as 112 or 911). Follow instructions from local authorities and official responders.</p>
+        </div>
+
+        <div class="relief-grid">
+          <article class="relief-card">
+            <span class="relief-card-kicker">Shelter</span>
+            <h3>Find verified shelter</h3>
+            <p>Open official locator pages. Availability changes quickly after an earthquake, so confirm by phone or with local authorities.</p>
+            <ul class="relief-links">
+              <li><a href="https://www.redcross.org/get-help/disaster-relief-and-recovery-services/find-an-open-shelter.html" target="_blank" rel="noopener noreferrer">American Red Cross shelter locator ↗</a></li>
+              <li><a href="https://www.disasterassistance.gov/" target="_blank" rel="noopener noreferrer">FEMA disaster assistance ↗</a></li>
+              <li><a href="https://www.211.org/" target="_blank" rel="noopener noreferrer">211 local services ↗</a></li>
+            </ul>
+          </article>
+
+          <article class="relief-card">
+            <span class="relief-card-kicker">Food &amp; water</span>
+            <h3>Locate food support</h3>
+            <p>Use official food-bank and community-service directories. Check for boil-water notices before using tap water.</p>
+            <ul class="relief-links">
+              <li><a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank" rel="noopener noreferrer">Feeding America food bank finder ↗</a></li>
+              <li><a href="https://www.redcross.org/get-help/disaster-relief-and-recovery-services.html" target="_blank" rel="noopener noreferrer">Red Cross relief services ↗</a></li>
+              <li><a href="https://www.211.org/" target="_blank" rel="noopener noreferrer">211 food and meals ↗</a></li>
+            </ul>
+          </article>
+
+          <article class="relief-card">
+            <span class="relief-card-kicker">Basic needs</span>
+            <h3>Prepare and stay safe</h3>
+            <p>Official safety guidance covers kits, aftershock behaviour, and recovery support. Print the card below for people with limited internet access.</p>
+            <ul class="relief-links">
+              <li><a href="https://www.usgs.gov/programs/earthquake-hazards/earthquake-safety" target="_blank" rel="noopener noreferrer">USGS earthquake safety ↗</a></li>
+              <li><a href="https://www.cdc.gov/emergency/prepare-supplies/index.html" target="_blank" rel="noopener noreferrer">CDC emergency supplies ↗</a></li>
+              <li><a href="https://www.ready.gov/earthquakes" target="_blank" rel="noopener noreferrer">Ready.gov earthquakes ↗</a></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="relief-tools">
+          <section class="needs-card" aria-labelledby="needsTitle">
+            <div class="card-head">
+              <div>
+                <h3 id="needsTitle">Personal needs checklist</h3>
+                <p class="card-sub">Saved only in this browser with localStorage. Do not enter sensitive personal details.</p>
+              </div>
+              <span class="card-tag">Private</span>
+            </div>
+            <div class="check-grid" id="needsChecks">
+              <label><input type="checkbox" data-need="Safe shelter"> Safe shelter</label>
+              <label><input type="checkbox" data-need="Water"> Water</label>
+              <label><input type="checkbox" data-need="Food"> Food</label>
+              <label><input type="checkbox" data-need="Medicine"> Medicine</label>
+              <label><input type="checkbox" data-need="Blankets"> Blankets</label>
+              <label><input type="checkbox" data-need="Phone charger"> Phone charger</label>
+              <label><input type="checkbox" data-need="First aid"> First aid</label>
+              <label><input type="checkbox" data-need="Documents"> Documents</label>
+            </div>
+            <label class="needs-notes-label" for="needsNotes">Notes for yourself</label>
+            <textarea id="needsNotes" rows="3" placeholder="Example: need accessible shelter; water for 3 people"></textarea>
+            <div class="needs-actions">
+              <button class="button button-solid" id="saveNeeds" type="button">Save locally</button>
+              <button class="button button-soft" id="exportNeedsCsv" type="button">Export checklist CSV</button>
+              <button class="button button-soft" id="clearNeeds" type="button">Clear</button>
+            </div>
+            <p class="needs-status" id="needsStatus" aria-live="polite">Nothing saved yet.</p>
+          </section>
+
+          <section class="contact-card" id="contactCard" aria-labelledby="contactTitle">
+            <div class="card-head">
+              <div>
+                <h3 id="contactTitle">Printable family contact card</h3>
+                <p class="card-sub">Fill by hand. This template is not saved or uploaded.</p>
+              </div>
+            </div>
+            <dl class="contact-lines">
+              <div><dt>Meeting point</dt><dd></dd></div>
+              <div><dt>Emergency contact</dt><dd></dd></div>
+              <div><dt>Phone / alternate</dt><dd></dd></div>
+              <div><dt>Out-of-area contact</dt><dd></dd></div>
+              <div><dt>Medical needs</dt><dd></dd></div>
+            </dl>
+            <button class="button button-soft" id="printCard" type="button">Print contact card</button>
+          </section>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <dialog class="method-dialog" id="methodDialog" aria-labelledby="methodTitle">
+    <div class="dialog-inner">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow">Method &amp; limits</p>
+          <h2 id="methodTitle">How this prototype works</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close method dialog">×</button>
+      </div>
+
+      <div class="dialog-grid">
+        <section>
+          <h3>What the app does</h3>
+          <p>The page loads an official USGS Earthquake Catalog CSV feed (past day, week, or month), with a bundled USGS CSV snapshot as fallback. You can also import a USGS-format CSV file.</p>
+          <p>The selected earthquake becomes the mainshock. Observed rows after it are used to set a search radius, infer a spatial trend, and scale a simple aftershock count model.</p>
+        </section>
+
+        <section>
+          <h3>Trained Random Forest v1.0</h3>
+          <p>The active engine is a bundled regression Random Forest trained offline on a USGS monthly catalog. Its 90 trees are exported to JSON and evaluated locally — no API, backend, or network call is needed at runtime.</p>
+          <p>It predicts the expected count of M≥3 events in the selected window from magnitude, depth, elapsed time, Omori decay, early observed counts, and an inferred trend. The map still uses the transparent spatial kernel to distribute that count across 3 km cells.</p>
+          <p class="formula">P<sub>i</sub> = 1 − exp(−N̂<sub>RF</sub> · w<sub>i</sub>)</p>
+          <p class="validation-box" id="methodValidation">Loading bundled model validation…</p>
+        </section>
+
+        <section>
+          <h3>Catalog-calibrated baseline</h3>
+          <p>Switching the engine selector to the baseline uses the transparent ETAS-inspired formula instead. It applies an Omori–Utsu time decay, an anisotropic spatial kernel, and a productivity scale derived from observed M≥3 counts in the CSV.</p>
+          <p class="formula">P<sub>i</sub> = 1 − exp(−N · w<sub>i</sub>)</p>
+          <p>Both engines produce a Poisson-style probability per 3 km grid cell and an expected count, not a statement that an event will occur.</p>
+        </section>
+
+        <section>
+          <h3>What is deliberately absent</h3>
+          <ul class="limit-list">
+            <li>The Random Forest is a compact teaching prototype, not an operationally validated forecast system.</li>
+            <li>The holdout comparison is one time-ordered split of one monthly catalog, not an accuracy claim or regional generalisation test.</li>
+            <li>For a changed start time, only catalog rows at or before that time are used; later rows are excluded.</li>
+            <li>The relief section does not dispatch help, collect personal data, or send requests to any agency.</li>
+            <li>Region coordinates and the inferred fault trend are approximate, not authoritative hazard geometry.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>What the full system should add</h3>
+          <p>A production system would ingest real-time catalogues and waveforms, train and validate a model against held-out sequences, publish calibrated uncertainty, and connect relief features to official, moderated service APIs.</p>
+          <p class="dialog-callout">Use this tool to explore relative patterns in a CSV catalog, not to issue alerts or make safety decisions.</p>
+        </section>
+      </div>
+
+      <div class="dialog-foot">
+        <p>Prototype v1.1 · USGS CSV · Random Forest v1.0 + baseline v0.2</p>
+        <button class="button button-solid" type="button" data-close-dialog>Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js?v=20261127k"></script>
+</body>
+</html>
