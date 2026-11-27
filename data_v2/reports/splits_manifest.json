@@ -1,0 +1,5135 @@
+{
+  "total_events": 118,
+  "chronological_split": {
+    "description": "Earliest 89 events (train) vs latest 29 events (test)",
+    "train": {
+      "n_events": 89,
+      "start_time": "2000-03-28T11:00:22.510Z",
+      "end_time": "2016-12-08T17:38:46.280Z",
+      "n_cells": 142400,
+      "n_pos_cells": 7369,
+      "n_aftershocks_in_grid": 28196,
+      "pos_prevalence": 0.05174859550561798,
+      "event_ids": [
+        "usp0009qb4",
+        "usp0009sbh",
+        "usp0009txv",
+        "usp000a3qq",
+        "usp000a3sp",
+        "usp000a45f",
+        "usp000a70h",
+        "usp000a7m5",
+        "usp000a8ds",
+        "official20010623203314130_33",
+        "usp000aj40",
+        "usp000asvm",
+        "usp000azqw",
+        "usp000ba6g",
+        "usp000ba6m",
+        "usp000bbpf",
+        "usp000be54",
+        "ak002e435qpj",
+        "usp000bnyr",
+        "usp000c2ka",
+        "usp000c41f",
+        "official20030925195006360_27",
+        "usp000cd1n",
+        "usp000d85g",
+        "usp000db93",
+        "official20041226005853450_30",
+        "official20050328160936530_30",
+        "usp000dsw1",
+        "usp000dz2j",
+        "usp000e12e",
+        "usp000e8ys",
+        "usp000ef1h",
+        "usp000eg5g",
+        "usp000ensm",
+        "usp000exfn",
+        "usp000f2ab",
+        "usp000f34b",
+        "usp000f83m",
+        "usp000fjta",
+        "official20070912111026830_34",
+        "usp000fn2b",
+        "usp000fshy",
+        "usp000fu3q",
+        "usp000g650",
+        "usp000gs2d",
+        "usp000gv5p",
+        "usp000gz8j",
+        "usp000h05x",
+        "usp000h1ys",
+        "usp000h237",
+        "usp000h2g9",
+        "usp000h2gd",
+        "official20100227063411530_30",
+        "usp000hat0",
+        "usp000hdwb",
+        "usp000hgmh",
+        "usp000hgmq",
+        "usp000hnj4",
+        "official20110311054624120_30",
+        "usp000hvpa",
+        "usp000hvpg",
+        "usp000j48h",
+        "official20120411083836720_20",
+        "usp000jhjb",
+        "usp000jr83",
+        "usp000jrsw",
+        "usp000juhz",
+        "ak0138esnzr",
+        "usc000f1s0",
+        "usb000h4jh",
+        "usb000jyiv",
+        "usb000l0gq",
+        "usc000nzvd",
+        "usc000p27i",
+        "usc000phx5",
+        "usb000pr89",
+        "usc000rki5",
+        "us10001rvu",
+        "us20002926",
+        "us20002bnf",
+        "us20002ki3",
+        "us20003k7a",
+        "us10003re5",
+        "us100040ww",
+        "us100040x6",
+        "us20005j32",
+        "us100068jg",
+        "us1000778i",
+        "us20007z80"
+      ],
+      "events": [
+        {
+          "id": "usp0009qb4",
+          "time": "2000-03-28T11:00:22.510Z",
+          "mag": 7.6,
+          "n_pos_cells": 15
+        },
+        {
+          "id": "usp0009sbh",
+          "time": "2000-05-04T04:21:16.210Z",
+          "mag": 7.6,
+          "n_pos_cells": 44
+        },
+        {
+          "id": "usp0009txv",
+          "time": "2000-06-04T16:28:26.170Z",
+          "mag": 7.9,
+          "n_pos_cells": 78
+        },
+        {
+          "id": "usp000a3qq",
+          "time": "2000-11-16T04:54:56.740Z",
+          "mag": 8.0,
+          "n_pos_cells": 173
+        },
+        {
+          "id": "usp000a3sp",
+          "time": "2000-11-16T07:42:16.930Z",
+          "mag": 7.8,
+          "n_pos_cells": 230
+        },
+        {
+          "id": "usp000a45f",
+          "time": "2000-11-17T21:01:56.490Z",
+          "mag": 7.8,
+          "n_pos_cells": 207
+        },
+        {
+          "id": "usp000a70h",
+          "time": "2001-01-01T06:57:04.170Z",
+          "mag": 7.5,
+          "n_pos_cells": 40
+        },
+        {
+          "id": "usp000a7m5",
+          "time": "2001-01-13T17:33:32.380Z",
+          "mag": 7.7,
+          "n_pos_cells": 52
+        },
+        {
+          "id": "usp000a8ds",
+          "time": "2001-01-26T03:16:40.500Z",
+          "mag": 7.7,
+          "n_pos_cells": 32
+        },
+        {
+          "id": "official20010623203314130_33",
+          "time": "2001-06-23T20:33:14.130Z",
+          "mag": 8.4,
+          "n_pos_cells": 69
+        },
+        {
+          "id": "usp000aj40",
+          "time": "2001-07-07T09:38:43.520Z",
+          "mag": 7.6,
+          "n_pos_cells": 72
+        },
+        {
+          "id": "usp000asvm",
+          "time": "2001-11-14T09:26:10.010Z",
+          "mag": 7.8,
+          "n_pos_cells": 15
+        },
+        {
+          "id": "usp000azqw",
+          "time": "2002-03-05T21:16:09.130Z",
+          "mag": 7.5,
+          "n_pos_cells": 46
+        },
+        {
+          "id": "usp000ba6g",
+          "time": "2002-08-19T11:01:01.190Z",
+          "mag": 7.7,
+          "n_pos_cells": 37
+        },
+        {
+          "id": "usp000ba6m",
+          "time": "2002-08-19T11:08:24.310Z",
+          "mag": 7.7,
+          "n_pos_cells": 21
+        },
+        {
+          "id": "usp000bbpf",
+          "time": "2002-09-08T18:44:23.710Z",
+          "mag": 7.6,
+          "n_pos_cells": 45
+        },
+        {
+          "id": "usp000be54",
+          "time": "2002-10-10T10:50:20.570Z",
+          "mag": 7.6,
+          "n_pos_cells": 79
+        },
+        {
+          "id": "ak002e435qpj",
+          "time": "2002-11-03T22:12:41.518Z",
+          "mag": 7.9,
+          "n_pos_cells": 35
+        },
+        {
+          "id": "usp000bnyr",
+          "time": "2003-01-22T02:06:34.610Z",
+          "mag": 7.6,
+          "n_pos_cells": 21
+        },
+        {
+          "id": "usp000c2ka",
+          "time": "2003-07-15T20:27:50.530Z",
+          "mag": 7.6,
+          "n_pos_cells": 23
+        },
+        {
+          "id": "usp000c41f",
+          "time": "2003-08-04T04:37:20.130Z",
+          "mag": 7.6,
+          "n_pos_cells": 42
+        },
+        {
+          "id": "official20030925195006360_27",
+          "time": "2003-09-25T19:50:06.360Z",
+          "mag": 8.16,
+          "n_pos_cells": 63
+        },
+        {
+          "id": "usp000cd1n",
+          "time": "2003-11-17T06:43:06.800Z",
+          "mag": 7.8,
+          "n_pos_cells": 75
+        },
+        {
+          "id": "usp000d85g",
+          "time": "2004-11-11T21:26:41.150Z",
+          "mag": 7.5,
+          "n_pos_cells": 76
+        },
+        {
+          "id": "usp000db93",
+          "time": "2004-12-23T14:59:04.410Z",
+          "mag": 8.1,
+          "n_pos_cells": 18
+        },
+        {
+          "id": "official20041226005853450_30",
+          "time": "2004-12-26T00:58:53.450Z",
+          "mag": 9.1,
+          "n_pos_cells": 104
+        },
+        {
+          "id": "official20050328160936530_30",
+          "time": "2005-03-28T16:09:36.530Z",
+          "mag": 8.6,
+          "n_pos_cells": 169
+        },
+        {
+          "id": "usp000dsw1",
+          "time": "2005-06-13T22:44:33.900Z",
+          "mag": 7.8,
+          "n_pos_cells": 25
+        },
+        {
+          "id": "usp000dz2j",
+          "time": "2005-09-09T07:26:43.730Z",
+          "mag": 7.6,
+          "n_pos_cells": 95
+        },
+        {
+          "id": "usp000e12e",
+          "time": "2005-10-08T03:50:40.800Z",
+          "mag": 7.6,
+          "n_pos_cells": 60
+        },
+        {
+          "id": "usp000e8ys",
+          "time": "2006-01-27T16:58:53.670Z",
+          "mag": 7.6,
+          "n_pos_cells": 15
+        },
+        {
+          "id": "usp000ef1h",
+          "time": "2006-04-20T23:25:02.150Z",
+          "mag": 7.6,
+          "n_pos_cells": 84
+        },
+        {
+          "id": "usp000eg5g",
+          "time": "2006-05-03T15:26:40.290Z",
+          "mag": 8.0,
+          "n_pos_cells": 88
+        },
+        {
+          "id": "usp000ensm",
+          "time": "2006-07-17T08:19:26.680Z",
+          "mag": 7.7,
+          "n_pos_cells": 146
+        },
+        {
+          "id": "usp000exfn",
+          "time": "2006-11-15T11:14:13.570Z",
+          "mag": 8.3,
+          "n_pos_cells": 123
+        },
+        {
+          "id": "usp000f2ab",
+          "time": "2007-01-13T04:23:21.160Z",
+          "mag": 8.1,
+          "n_pos_cells": 96
+        },
+        {
+          "id": "usp000f34b",
+          "time": "2007-01-21T11:27:45.060Z",
+          "mag": 7.5,
+          "n_pos_cells": 94
+        },
+        {
+          "id": "usp000f83m",
+          "time": "2007-04-01T20:39:58.710Z",
+          "mag": 8.1,
+          "n_pos_cells": 100
+        },
+        {
+          "id": "usp000fjta",
+          "time": "2007-08-15T23:40:57.890Z",
+          "mag": 8.0,
+          "n_pos_cells": 59
+        },
+        {
+          "id": "official20070912111026830_34",
+          "time": "2007-09-12T11:10:26.830Z",
+          "mag": 8.4,
+          "n_pos_cells": 79
+        },
+        {
+          "id": "usp000fn2b",
+          "time": "2007-09-12T23:49:03.720Z",
+          "mag": 7.9,
+          "n_pos_cells": 133
+        },
+        {
+          "id": "usp000fshy",
+          "time": "2007-11-14T15:40:50.530Z",
+          "mag": 7.7,
+          "n_pos_cells": 49
+        },
+        {
+          "id": "usp000fu3q",
+          "time": "2007-12-09T07:28:20.820Z",
+          "mag": 7.8,
+          "n_pos_cells": 36
+        },
+        {
+          "id": "usp000g650",
+          "time": "2008-05-12T06:28:01.570Z",
+          "mag": 7.9,
+          "n_pos_cells": 99
+        },
+        {
+          "id": "usp000gs2d",
+          "time": "2009-01-03T19:43:50.650Z",
+          "mag": 7.7,
+          "n_pos_cells": 59
+        },
+        {
+          "id": "usp000gv5p",
+          "time": "2009-03-19T18:17:40.470Z",
+          "mag": 7.6,
+          "n_pos_cells": 60
+        },
+        {
+          "id": "usp000gz8j",
+          "time": "2009-07-15T09:22:29.030Z",
+          "mag": 7.8,
+          "n_pos_cells": 40
+        },
+        {
+          "id": "usp000h05x",
+          "time": "2009-08-10T19:55:38.730Z",
+          "mag": 7.5,
+          "n_pos_cells": 22
+        },
+        {
+          "id": "usp000h1ys",
+          "time": "2009-09-29T17:48:10.990Z",
+          "mag": 8.1,
+          "n_pos_cells": 107
+        },
+        {
+          "id": "usp000h237",
+          "time": "2009-09-30T10:16:09.250Z",
+          "mag": 7.6,
+          "n_pos_cells": 20
+        },
+        {
+          "id": "usp000h2g9",
+          "time": "2009-10-07T22:03:14.470Z",
+          "mag": 7.7,
+          "n_pos_cells": 142
+        },
+        {
+          "id": "usp000h2gd",
+          "time": "2009-10-07T22:18:51.240Z",
+          "mag": 7.8,
+          "n_pos_cells": 128
+        },
+        {
+          "id": "official20100227063411530_30",
+          "time": "2010-02-27T06:34:11.530Z",
+          "mag": 8.8,
+          "n_pos_cells": 94
+        },
+        {
+          "id": "usp000hat0",
+          "time": "2010-04-06T22:15:01.580Z",
+          "mag": 7.8,
+          "n_pos_cells": 25
+        },
+        {
+          "id": "usp000hdwb",
+          "time": "2010-06-12T19:26:50.460Z",
+          "mag": 7.5,
+          "n_pos_cells": 22
+        },
+        {
+          "id": "usp000hgmh",
+          "time": "2010-07-23T22:51:11.840Z",
+          "mag": 7.6,
+          "n_pos_cells": 19
+        },
+        {
+          "id": "usp000hgmq",
+          "time": "2010-07-23T23:15:10.190Z",
+          "mag": 7.5,
+          "n_pos_cells": 19
+        },
+        {
+          "id": "usp000hnj4",
+          "time": "2010-10-25T14:42:22.460Z",
+          "mag": 7.8,
+          "n_pos_cells": 65
+        },
+        {
+          "id": "official20110311054624120_30",
+          "time": "2011-03-11T05:46:24.120Z",
+          "mag": 9.1,
+          "n_pos_cells": 90
+        },
+        {
+          "id": "usp000hvpa",
+          "time": "2011-03-11T06:15:40.280Z",
+          "mag": 7.9,
+          "n_pos_cells": 508
+        },
+        {
+          "id": "usp000hvpg",
+          "time": "2011-03-11T06:25:50.300Z",
+          "mag": 7.7,
+          "n_pos_cells": 658
+        },
+        {
+          "id": "usp000j48h",
+          "time": "2011-07-06T19:03:18.260Z",
+          "mag": 7.6,
+          "n_pos_cells": 123
+        },
+        {
+          "id": "official20120411083836720_20",
+          "time": "2012-04-11T08:38:36.720Z",
+          "mag": 8.6,
+          "n_pos_cells": 114
+        },
+        {
+          "id": "usp000jhjb",
+          "time": "2012-04-11T10:43:10.850Z",
+          "mag": 8.2,
+          "n_pos_cells": 157
+        },
+        {
+          "id": "usp000jr83",
+          "time": "2012-08-31T12:47:33.380Z",
+          "mag": 7.6,
+          "n_pos_cells": 108
+        },
+        {
+          "id": "usp000jrsw",
+          "time": "2012-09-05T14:42:07.800Z",
+          "mag": 7.6,
+          "n_pos_cells": 28
+        },
+        {
+          "id": "usp000juhz",
+          "time": "2012-10-28T03:04:08.820Z",
+          "mag": 7.8,
+          "n_pos_cells": 65
+        },
+        {
+          "id": "ak0138esnzr",
+          "time": "2013-01-05T08:58:14.957Z",
+          "mag": 7.5,
+          "n_pos_cells": 16
+        },
+        {
+          "id": "usc000f1s0",
+          "time": "2013-02-06T01:12:25.830Z",
+          "mag": 8.0,
+          "n_pos_cells": 117
+        },
+        {
+          "id": "usb000h4jh",
+          "time": "2013-05-24T05:44:48.980Z",
+          "mag": 8.3,
+          "n_pos_cells": 25
+        },
+        {
+          "id": "usb000jyiv",
+          "time": "2013-09-24T11:29:47.970Z",
+          "mag": 7.7,
+          "n_pos_cells": 30
+        },
+        {
+          "id": "usb000l0gq",
+          "time": "2013-11-17T09:04:55.530Z",
+          "mag": 7.7,
+          "n_pos_cells": 91
+        },
+        {
+          "id": "usc000nzvd",
+          "time": "2014-04-01T23:46:47.260Z",
+          "mag": 8.2,
+          "n_pos_cells": 74
+        },
+        {
+          "id": "usc000p27i",
+          "time": "2014-04-03T02:43:13.110Z",
+          "mag": 7.7,
+          "n_pos_cells": 95
+        },
+        {
+          "id": "usc000phx5",
+          "time": "2014-04-12T20:14:39.300Z",
+          "mag": 7.6,
+          "n_pos_cells": 109
+        },
+        {
+          "id": "usb000pr89",
+          "time": "2014-04-19T13:28:00.810Z",
+          "mag": 7.5,
+          "n_pos_cells": 156
+        },
+        {
+          "id": "usc000rki5",
+          "time": "2014-06-23T20:53:09.700Z",
+          "mag": 7.9,
+          "n_pos_cells": 25
+        },
+        {
+          "id": "us10001rvu",
+          "time": "2015-03-29T23:48:31.010Z",
+          "mag": 7.5,
+          "n_pos_cells": 75
+        },
+        {
+          "id": "us20002926",
+          "time": "2015-04-25T06:11:25.950Z",
+          "mag": 7.8,
+          "n_pos_cells": 68
+        },
+        {
+          "id": "us20002bnf",
+          "time": "2015-05-05T01:44:06.380Z",
+          "mag": 7.5,
+          "n_pos_cells": 120
+        },
+        {
+          "id": "us20002ki3",
+          "time": "2015-05-30T11:23:02.110Z",
+          "mag": 7.8,
+          "n_pos_cells": 22
+        },
+        {
+          "id": "us20003k7a",
+          "time": "2015-09-16T22:54:32.860Z",
+          "mag": 8.3,
+          "n_pos_cells": 82
+        },
+        {
+          "id": "us10003re5",
+          "time": "2015-10-26T09:09:42.560Z",
+          "mag": 7.5,
+          "n_pos_cells": 24
+        },
+        {
+          "id": "us100040ww",
+          "time": "2015-11-24T22:45:38.880Z",
+          "mag": 7.6,
+          "n_pos_cells": 18
+        },
+        {
+          "id": "us100040x6",
+          "time": "2015-11-24T22:50:54.370Z",
+          "mag": 7.6,
+          "n_pos_cells": 19
+        },
+        {
+          "id": "us20005j32",
+          "time": "2016-04-16T23:58:36.980Z",
+          "mag": 7.8,
+          "n_pos_cells": 52
+        },
+        {
+          "id": "us100068jg",
+          "time": "2016-07-29T21:18:24.740Z",
+          "mag": 7.7,
+          "n_pos_cells": 43
+        },
+        {
+          "id": "us1000778i",
+          "time": "2016-11-13T11:02:56.340Z",
+          "mag": 7.8,
+          "n_pos_cells": 68
+        },
+        {
+          "id": "us20007z80",
+          "time": "2016-12-08T17:38:46.280Z",
+          "mag": 7.8,
+          "n_pos_cells": 105
+        }
+      ]
+    },
+    "test": {
+      "n_events": 29,
+      "start_time": "2016-12-17T10:51:10.500Z",
+      "end_time": "2024-01-01T07:10:09.476Z",
+      "n_cells": 46400,
+      "n_pos_cells": 2536,
+      "n_aftershocks_in_grid": 7359,
+      "pos_prevalence": 0.054655172413793106,
+      "event_ids": [
+        "us200081v8",
+        "us10007mn3",
+        "us10007uph",
+        "us20009x42",
+        "us2000ahv0",
+        "us2000cmy3",
+        "us2000d7q6",
+        "us1000gcii",
+        "us2000h9e2",
+        "us1000h3p4",
+        "us1000i2gt",
+        "us70003kyy",
+        "us60007idc",
+        "us70008fi4",
+        "us7000asvb",
+        "us6000c9hg",
+        "us6000dg77",
+        "us7000dflf",
+        "ak0219neiszm",
+        "us6000f4ly",
+        "us6000f53e",
+        "us6000iitd",
+        "us7000j36j",
+        "us6000jllz",
+        "us6000jlqa",
+        "us6000kawn",
+        "us6000kd0n",
+        "us7000lff4",
+        "us6000m0xl"
+      ],
+      "events": [
+        {
+          "id": "us200081v8",
+          "time": "2016-12-17T10:51:10.500Z",
+          "mag": 7.9,
+          "n_pos_cells": 137
+        },
+        {
+          "id": "us10007mn3",
+          "time": "2016-12-25T14:22:27.010Z",
+          "mag": 7.6,
+          "n_pos_cells": 14
+        },
+        {
+          "id": "us10007uph",
+          "time": "2017-01-22T04:30:22.960Z",
+          "mag": 7.9,
+          "n_pos_cells": 46
+        },
+        {
+          "id": "us20009x42",
+          "time": "2017-07-17T23:34:13.740Z",
+          "mag": 7.7,
+          "n_pos_cells": 81
+        },
+        {
+          "id": "us2000ahv0",
+          "time": "2017-09-08T04:49:19.180Z",
+          "mag": 8.2,
+          "n_pos_cells": 85
+        },
+        {
+          "id": "us2000cmy3",
+          "time": "2018-01-23T09:31:40.890Z",
+          "mag": 7.9,
+          "n_pos_cells": 36
+        },
+        {
+          "id": "us2000d7q6",
+          "time": "2018-02-25T17:44:44.140Z",
+          "mag": 7.5,
+          "n_pos_cells": 118
+        },
+        {
+          "id": "us1000gcii",
+          "time": "2018-08-19T00:19:40.670Z",
+          "mag": 8.2,
+          "n_pos_cells": 110
+        },
+        {
+          "id": "us2000h9e2",
+          "time": "2018-09-06T15:49:18.710Z",
+          "mag": 7.9,
+          "n_pos_cells": 13
+        },
+        {
+          "id": "us1000h3p4",
+          "time": "2018-09-28T10:02:45.250Z",
+          "mag": 7.5,
+          "n_pos_cells": 81
+        },
+        {
+          "id": "us1000i2gt",
+          "time": "2018-12-05T04:18:08.420Z",
+          "mag": 7.5,
+          "n_pos_cells": 112
+        },
+        {
+          "id": "us70003kyy",
+          "time": "2019-05-14T12:58:25.939Z",
+          "mag": 7.6,
+          "n_pos_cells": 46
+        },
+        {
+          "id": "us60007idc",
+          "time": "2020-01-28T19:10:24.918Z",
+          "mag": 7.7,
+          "n_pos_cells": 18
+        },
+        {
+          "id": "us70008fi4",
+          "time": "2020-03-25T02:49:21.160Z",
+          "mag": 7.5,
+          "n_pos_cells": 26
+        },
+        {
+          "id": "us7000asvb",
+          "time": "2020-07-22T06:12:44.810Z",
+          "mag": 7.8,
+          "n_pos_cells": 36
+        },
+        {
+          "id": "us6000c9hg",
+          "time": "2020-10-19T20:54:38.950Z",
+          "mag": 7.6,
+          "n_pos_cells": 29
+        },
+        {
+          "id": "us6000dg77",
+          "time": "2021-02-10T13:19:55.530Z",
+          "mag": 7.7,
+          "n_pos_cells": 136
+        },
+        {
+          "id": "us7000dflf",
+          "time": "2021-03-04T19:28:33.178Z",
+          "mag": 8.1,
+          "n_pos_cells": 168
+        },
+        {
+          "id": "ak0219neiszm",
+          "time": "2021-07-29T06:15:49.188Z",
+          "mag": 8.2,
+          "n_pos_cells": 32
+        },
+        {
+          "id": "us6000f4ly",
+          "time": "2021-08-12T18:32:52.464Z",
+          "mag": 7.5,
+          "n_pos_cells": 329
+        },
+        {
+          "id": "us6000f53e",
+          "time": "2021-08-12T18:35:17.231Z",
+          "mag": 8.1,
+          "n_pos_cells": 213
+        },
+        {
+          "id": "us6000iitd",
+          "time": "2022-09-10T23:47:00.233Z",
+          "mag": 7.6,
+          "n_pos_cells": 27
+        },
+        {
+          "id": "us7000j36j",
+          "time": "2023-01-09T17:47:35.037Z",
+          "mag": 7.6,
+          "n_pos_cells": 35
+        },
+        {
+          "id": "us6000jllz",
+          "time": "2023-02-06T01:17:34.342Z",
+          "mag": 7.8,
+          "n_pos_cells": 137
+        },
+        {
+          "id": "us6000jlqa",
+          "time": "2023-02-06T10:24:48.811Z",
+          "mag": 7.5,
+          "n_pos_cells": 144
+        },
+        {
+          "id": "us6000kawn",
+          "time": "2023-05-10T16:02:00.334Z",
+          "mag": 7.6,
+          "n_pos_cells": 23
+        },
+        {
+          "id": "us6000kd0n",
+          "time": "2023-05-19T02:57:03.172Z",
+          "mag": 7.7,
+          "n_pos_cells": 92
+        },
+        {
+          "id": "us7000lff4",
+          "time": "2023-12-02T14:37:04.454Z",
+          "mag": 7.6,
+          "n_pos_cells": 168
+        },
+        {
+          "id": "us6000m0xl",
+          "time": "2024-01-01T07:10:09.476Z",
+          "mag": 7.5,
+          "n_pos_cells": 44
+        }
+      ]
+    }
+  },
+  "group_cv_5fold": [
+    {
+      "fold": 0,
+      "train": {
+        "n_events": 94,
+        "start_time": "2000-05-04T04:21:16.210Z",
+        "end_time": "2023-05-10T16:02:00.334Z",
+        "n_cells": 150400,
+        "n_pos_cells": 7576,
+        "n_aftershocks_in_grid": 28714,
+        "pos_prevalence": 0.05037234042553192,
+        "event_ids": [
+          "usp0009sbh",
+          "usp000a70h",
+          "usp000asvm",
+          "usp000be54",
+          "official20030925195006360_27",
+          "official20050328160936530_30",
+          "usp000ef1h",
+          "usp000f34b",
+          "usp000fshy",
+          "usp000gz8j",
+          "usp000h2gd",
+          "usp000hgmq",
+          "usp000j48h",
+          "usp000juhz",
+          "usb000l0gq",
+          "usc000rki5",
+          "us20003k7a",
+          "us100068jg",
+          "us10007uph",
+          "us1000gcii",
+          "us60007idc",
+          "us7000dflf",
+          "us7000j36j",
+          "us7000lff4",
+          "usp0009txv",
+          "usp000a7m5",
+          "usp000azqw",
+          "ak002e435qpj",
+          "usp000cd1n",
+          "usp000dsw1",
+          "usp000eg5g",
+          "usp000f83m",
+          "usp000fu3q",
+          "usp000h05x",
+          "official20100227063411530_30",
+          "usp000hnj4",
+          "official20120411083836720_20",
+          "ak0138esnzr",
+          "usc000nzvd",
+          "us10001rvu",
+          "us10003re5",
+          "us1000778i",
+          "us20009x42",
+          "us2000h9e2",
+          "us70008fi4",
+          "ak0219neiszm",
+          "us6000jllz",
+          "us6000m0xl",
+          "usp000a3qq",
+          "usp000a8ds",
+          "usp000ba6g",
+          "usp000bnyr",
+          "usp000d85g",
+          "usp000dz2j",
+          "usp000ensm",
+          "usp000fjta",
+          "usp000g650",
+          "usp000h1ys",
+          "usp000hat0",
+          "official20110311054624120_30",
+          "usp000jhjb",
+          "usc000f1s0",
+          "usc000p27i",
+          "us20002926",
+          "us100040ww",
+          "us20007z80",
+          "us2000ahv0",
+          "us1000h3p4",
+          "us7000asvb",
+          "us6000f4ly",
+          "us6000jlqa",
+          "usp000a3sp",
+          "official20010623203314130_33",
+          "usp000ba6m",
+          "usp000c2ka",
+          "usp000db93",
+          "usp000e12e",
+          "usp000exfn",
+          "official20070912111026830_34",
+          "usp000gs2d",
+          "usp000h237",
+          "usp000hdwb",
+          "usp000hvpa",
+          "usp000jr83",
+          "usb000h4jh",
+          "usc000phx5",
+          "us20002bnf",
+          "us100040x6",
+          "us200081v8",
+          "us2000cmy3",
+          "us1000i2gt",
+          "us6000c9hg",
+          "us6000f53e",
+          "us6000kawn"
+        ],
+        "events": [
+          {
+            "id": "usp0009sbh",
+            "time": "2000-05-04T04:21:16.210Z",
+            "mag": 7.6,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a70h",
+            "time": "2001-01-01T06:57:04.170Z",
+            "mag": 7.5,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000asvm",
+            "time": "2001-11-14T09:26:10.010Z",
+            "mag": 7.8,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000be54",
+            "time": "2002-10-10T10:50:20.570Z",
+            "mag": 7.6,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "official20030925195006360_27",
+            "time": "2003-09-25T19:50:06.360Z",
+            "mag": 8.16,
+            "n_pos_cells": 63
+          },
+          {
+            "id": "official20050328160936530_30",
+            "time": "2005-03-28T16:09:36.530Z",
+            "mag": 8.6,
+            "n_pos_cells": 169
+          },
+          {
+            "id": "usp000ef1h",
+            "time": "2006-04-20T23:25:02.150Z",
+            "mag": 7.6,
+            "n_pos_cells": 84
+          },
+          {
+            "id": "usp000f34b",
+            "time": "2007-01-21T11:27:45.060Z",
+            "mag": 7.5,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000fshy",
+            "time": "2007-11-14T15:40:50.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 49
+          },
+          {
+            "id": "usp000gz8j",
+            "time": "2009-07-15T09:22:29.030Z",
+            "mag": 7.8,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000h2gd",
+            "time": "2009-10-07T22:18:51.240Z",
+            "mag": 7.8,
+            "n_pos_cells": 128
+          },
+          {
+            "id": "usp000hgmq",
+            "time": "2010-07-23T23:15:10.190Z",
+            "mag": 7.5,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000j48h",
+            "time": "2011-07-06T19:03:18.260Z",
+            "mag": 7.6,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "usp000juhz",
+            "time": "2012-10-28T03:04:08.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "usb000l0gq",
+            "time": "2013-11-17T09:04:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 91
+          },
+          {
+            "id": "usc000rki5",
+            "time": "2014-06-23T20:53:09.700Z",
+            "mag": 7.9,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "us20003k7a",
+            "time": "2015-09-16T22:54:32.860Z",
+            "mag": 8.3,
+            "n_pos_cells": 82
+          },
+          {
+            "id": "us100068jg",
+            "time": "2016-07-29T21:18:24.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 43
+          },
+          {
+            "id": "us10007uph",
+            "time": "2017-01-22T04:30:22.960Z",
+            "mag": 7.9,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us1000gcii",
+            "time": "2018-08-19T00:19:40.670Z",
+            "mag": 8.2,
+            "n_pos_cells": 110
+          },
+          {
+            "id": "us60007idc",
+            "time": "2020-01-28T19:10:24.918Z",
+            "mag": 7.7,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us7000dflf",
+            "time": "2021-03-04T19:28:33.178Z",
+            "mag": 8.1,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "us7000j36j",
+            "time": "2023-01-09T17:47:35.037Z",
+            "mag": 7.6,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "us7000lff4",
+            "time": "2023-12-02T14:37:04.454Z",
+            "mag": 7.6,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "usp0009txv",
+            "time": "2000-06-04T16:28:26.170Z",
+            "mag": 7.9,
+            "n_pos_cells": 78
+          },
+          {
+            "id": "usp000a7m5",
+            "time": "2001-01-13T17:33:32.380Z",
+            "mag": 7.7,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "usp000azqw",
+            "time": "2002-03-05T21:16:09.130Z",
+            "mag": 7.5,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "ak002e435qpj",
+            "time": "2002-11-03T22:12:41.518Z",
+            "mag": 7.9,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "usp000cd1n",
+            "time": "2003-11-17T06:43:06.800Z",
+            "mag": 7.8,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "usp000dsw1",
+            "time": "2005-06-13T22:44:33.900Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usp000eg5g",
+            "time": "2006-05-03T15:26:40.290Z",
+            "mag": 8.0,
+            "n_pos_cells": 88
+          },
+          {
+            "id": "usp000f83m",
+            "time": "2007-04-01T20:39:58.710Z",
+            "mag": 8.1,
+            "n_pos_cells": 100
+          },
+          {
+            "id": "usp000fu3q",
+            "time": "2007-12-09T07:28:20.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "usp000h05x",
+            "time": "2009-08-10T19:55:38.730Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "official20100227063411530_30",
+            "time": "2010-02-27T06:34:11.530Z",
+            "mag": 8.8,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000hnj4",
+            "time": "2010-10-25T14:42:22.460Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "official20120411083836720_20",
+            "time": "2012-04-11T08:38:36.720Z",
+            "mag": 8.6,
+            "n_pos_cells": 114
+          },
+          {
+            "id": "ak0138esnzr",
+            "time": "2013-01-05T08:58:14.957Z",
+            "mag": 7.5,
+            "n_pos_cells": 16
+          },
+          {
+            "id": "usc000nzvd",
+            "time": "2014-04-01T23:46:47.260Z",
+            "mag": 8.2,
+            "n_pos_cells": 74
+          },
+          {
+            "id": "us10001rvu",
+            "time": "2015-03-29T23:48:31.010Z",
+            "mag": 7.5,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "us10003re5",
+            "time": "2015-10-26T09:09:42.560Z",
+            "mag": 7.5,
+            "n_pos_cells": 24
+          },
+          {
+            "id": "us1000778i",
+            "time": "2016-11-13T11:02:56.340Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us20009x42",
+            "time": "2017-07-17T23:34:13.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us2000h9e2",
+            "time": "2018-09-06T15:49:18.710Z",
+            "mag": 7.9,
+            "n_pos_cells": 13
+          },
+          {
+            "id": "us70008fi4",
+            "time": "2020-03-25T02:49:21.160Z",
+            "mag": 7.5,
+            "n_pos_cells": 26
+          },
+          {
+            "id": "ak0219neiszm",
+            "time": "2021-07-29T06:15:49.188Z",
+            "mag": 8.2,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "us6000jllz",
+            "time": "2023-02-06T01:17:34.342Z",
+            "mag": 7.8,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us6000m0xl",
+            "time": "2024-01-01T07:10:09.476Z",
+            "mag": 7.5,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a3qq",
+            "time": "2000-11-16T04:54:56.740Z",
+            "mag": 8.0,
+            "n_pos_cells": 173
+          },
+          {
+            "id": "usp000a8ds",
+            "time": "2001-01-26T03:16:40.500Z",
+            "mag": 7.7,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "usp000ba6g",
+            "time": "2002-08-19T11:01:01.190Z",
+            "mag": 7.7,
+            "n_pos_cells": 37
+          },
+          {
+            "id": "usp000bnyr",
+            "time": "2003-01-22T02:06:34.610Z",
+            "mag": 7.6,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000d85g",
+            "time": "2004-11-11T21:26:41.150Z",
+            "mag": 7.5,
+            "n_pos_cells": 76
+          },
+          {
+            "id": "usp000dz2j",
+            "time": "2005-09-09T07:26:43.730Z",
+            "mag": 7.6,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "usp000ensm",
+            "time": "2006-07-17T08:19:26.680Z",
+            "mag": 7.7,
+            "n_pos_cells": 146
+          },
+          {
+            "id": "usp000fjta",
+            "time": "2007-08-15T23:40:57.890Z",
+            "mag": 8.0,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000g650",
+            "time": "2008-05-12T06:28:01.570Z",
+            "mag": 7.9,
+            "n_pos_cells": 99
+          },
+          {
+            "id": "usp000h1ys",
+            "time": "2009-09-29T17:48:10.990Z",
+            "mag": 8.1,
+            "n_pos_cells": 107
+          },
+          {
+            "id": "usp000hat0",
+            "time": "2010-04-06T22:15:01.580Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "official20110311054624120_30",
+            "time": "2011-03-11T05:46:24.120Z",
+            "mag": 9.1,
+            "n_pos_cells": 90
+          },
+          {
+            "id": "usp000jhjb",
+            "time": "2012-04-11T10:43:10.850Z",
+            "mag": 8.2,
+            "n_pos_cells": 157
+          },
+          {
+            "id": "usc000f1s0",
+            "time": "2013-02-06T01:12:25.830Z",
+            "mag": 8.0,
+            "n_pos_cells": 117
+          },
+          {
+            "id": "usc000p27i",
+            "time": "2014-04-03T02:43:13.110Z",
+            "mag": 7.7,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "us20002926",
+            "time": "2015-04-25T06:11:25.950Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us100040ww",
+            "time": "2015-11-24T22:45:38.880Z",
+            "mag": 7.6,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us20007z80",
+            "time": "2016-12-08T17:38:46.280Z",
+            "mag": 7.8,
+            "n_pos_cells": 105
+          },
+          {
+            "id": "us2000ahv0",
+            "time": "2017-09-08T04:49:19.180Z",
+            "mag": 8.2,
+            "n_pos_cells": 85
+          },
+          {
+            "id": "us1000h3p4",
+            "time": "2018-09-28T10:02:45.250Z",
+            "mag": 7.5,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us7000asvb",
+            "time": "2020-07-22T06:12:44.810Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us6000f4ly",
+            "time": "2021-08-12T18:32:52.464Z",
+            "mag": 7.5,
+            "n_pos_cells": 329
+          },
+          {
+            "id": "us6000jlqa",
+            "time": "2023-02-06T10:24:48.811Z",
+            "mag": 7.5,
+            "n_pos_cells": 144
+          },
+          {
+            "id": "usp000a3sp",
+            "time": "2000-11-16T07:42:16.930Z",
+            "mag": 7.8,
+            "n_pos_cells": 230
+          },
+          {
+            "id": "official20010623203314130_33",
+            "time": "2001-06-23T20:33:14.130Z",
+            "mag": 8.4,
+            "n_pos_cells": 69
+          },
+          {
+            "id": "usp000ba6m",
+            "time": "2002-08-19T11:08:24.310Z",
+            "mag": 7.7,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000c2ka",
+            "time": "2003-07-15T20:27:50.530Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          },
+          {
+            "id": "usp000db93",
+            "time": "2004-12-23T14:59:04.410Z",
+            "mag": 8.1,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "usp000e12e",
+            "time": "2005-10-08T03:50:40.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000exfn",
+            "time": "2006-11-15T11:14:13.570Z",
+            "mag": 8.3,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "official20070912111026830_34",
+            "time": "2007-09-12T11:10:26.830Z",
+            "mag": 8.4,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "usp000gs2d",
+            "time": "2009-01-03T19:43:50.650Z",
+            "mag": 7.7,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000h237",
+            "time": "2009-09-30T10:16:09.250Z",
+            "mag": 7.6,
+            "n_pos_cells": 20
+          },
+          {
+            "id": "usp000hdwb",
+            "time": "2010-06-12T19:26:50.460Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "usp000hvpa",
+            "time": "2011-03-11T06:15:40.280Z",
+            "mag": 7.9,
+            "n_pos_cells": 508
+          },
+          {
+            "id": "usp000jr83",
+            "time": "2012-08-31T12:47:33.380Z",
+            "mag": 7.6,
+            "n_pos_cells": 108
+          },
+          {
+            "id": "usb000h4jh",
+            "time": "2013-05-24T05:44:48.980Z",
+            "mag": 8.3,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usc000phx5",
+            "time": "2014-04-12T20:14:39.300Z",
+            "mag": 7.6,
+            "n_pos_cells": 109
+          },
+          {
+            "id": "us20002bnf",
+            "time": "2015-05-05T01:44:06.380Z",
+            "mag": 7.5,
+            "n_pos_cells": 120
+          },
+          {
+            "id": "us100040x6",
+            "time": "2015-11-24T22:50:54.370Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "us200081v8",
+            "time": "2016-12-17T10:51:10.500Z",
+            "mag": 7.9,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us2000cmy3",
+            "time": "2018-01-23T09:31:40.890Z",
+            "mag": 7.9,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us1000i2gt",
+            "time": "2018-12-05T04:18:08.420Z",
+            "mag": 7.5,
+            "n_pos_cells": 112
+          },
+          {
+            "id": "us6000c9hg",
+            "time": "2020-10-19T20:54:38.950Z",
+            "mag": 7.6,
+            "n_pos_cells": 29
+          },
+          {
+            "id": "us6000f53e",
+            "time": "2021-08-12T18:35:17.231Z",
+            "mag": 8.1,
+            "n_pos_cells": 213
+          },
+          {
+            "id": "us6000kawn",
+            "time": "2023-05-10T16:02:00.334Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          }
+        ]
+      },
+      "test": {
+        "n_events": 24,
+        "start_time": "2000-03-28T11:00:22.510Z",
+        "end_time": "2023-05-19T02:57:03.172Z",
+        "n_cells": 38400,
+        "n_pos_cells": 2329,
+        "n_aftershocks_in_grid": 6841,
+        "pos_prevalence": 0.06065104166666667,
+        "event_ids": [
+          "usp0009qb4",
+          "usp000a45f",
+          "usp000aj40",
+          "usp000bbpf",
+          "usp000c41f",
+          "official20041226005853450_30",
+          "usp000e8ys",
+          "usp000f2ab",
+          "usp000fn2b",
+          "usp000gv5p",
+          "usp000h2g9",
+          "usp000hgmh",
+          "usp000hvpg",
+          "usp000jrsw",
+          "usb000jyiv",
+          "usb000pr89",
+          "us20002ki3",
+          "us20005j32",
+          "us10007mn3",
+          "us2000d7q6",
+          "us70003kyy",
+          "us6000dg77",
+          "us6000iitd",
+          "us6000kd0n"
+        ],
+        "events": [
+          {
+            "id": "usp0009qb4",
+            "time": "2000-03-28T11:00:22.510Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000a45f",
+            "time": "2000-11-17T21:01:56.490Z",
+            "mag": 7.8,
+            "n_pos_cells": 207
+          },
+          {
+            "id": "usp000aj40",
+            "time": "2001-07-07T09:38:43.520Z",
+            "mag": 7.6,
+            "n_pos_cells": 72
+          },
+          {
+            "id": "usp000bbpf",
+            "time": "2002-09-08T18:44:23.710Z",
+            "mag": 7.6,
+            "n_pos_cells": 45
+          },
+          {
+            "id": "usp000c41f",
+            "time": "2003-08-04T04:37:20.130Z",
+            "mag": 7.6,
+            "n_pos_cells": 42
+          },
+          {
+            "id": "official20041226005853450_30",
+            "time": "2004-12-26T00:58:53.450Z",
+            "mag": 9.1,
+            "n_pos_cells": 104
+          },
+          {
+            "id": "usp000e8ys",
+            "time": "2006-01-27T16:58:53.670Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000f2ab",
+            "time": "2007-01-13T04:23:21.160Z",
+            "mag": 8.1,
+            "n_pos_cells": 96
+          },
+          {
+            "id": "usp000fn2b",
+            "time": "2007-09-12T23:49:03.720Z",
+            "mag": 7.9,
+            "n_pos_cells": 133
+          },
+          {
+            "id": "usp000gv5p",
+            "time": "2009-03-19T18:17:40.470Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000h2g9",
+            "time": "2009-10-07T22:03:14.470Z",
+            "mag": 7.7,
+            "n_pos_cells": 142
+          },
+          {
+            "id": "usp000hgmh",
+            "time": "2010-07-23T22:51:11.840Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000hvpg",
+            "time": "2011-03-11T06:25:50.300Z",
+            "mag": 7.7,
+            "n_pos_cells": 658
+          },
+          {
+            "id": "usp000jrsw",
+            "time": "2012-09-05T14:42:07.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 28
+          },
+          {
+            "id": "usb000jyiv",
+            "time": "2013-09-24T11:29:47.970Z",
+            "mag": 7.7,
+            "n_pos_cells": 30
+          },
+          {
+            "id": "usb000pr89",
+            "time": "2014-04-19T13:28:00.810Z",
+            "mag": 7.5,
+            "n_pos_cells": 156
+          },
+          {
+            "id": "us20002ki3",
+            "time": "2015-05-30T11:23:02.110Z",
+            "mag": 7.8,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "us20005j32",
+            "time": "2016-04-16T23:58:36.980Z",
+            "mag": 7.8,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "us10007mn3",
+            "time": "2016-12-25T14:22:27.010Z",
+            "mag": 7.6,
+            "n_pos_cells": 14
+          },
+          {
+            "id": "us2000d7q6",
+            "time": "2018-02-25T17:44:44.140Z",
+            "mag": 7.5,
+            "n_pos_cells": 118
+          },
+          {
+            "id": "us70003kyy",
+            "time": "2019-05-14T12:58:25.939Z",
+            "mag": 7.6,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us6000dg77",
+            "time": "2021-02-10T13:19:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 136
+          },
+          {
+            "id": "us6000iitd",
+            "time": "2022-09-10T23:47:00.233Z",
+            "mag": 7.6,
+            "n_pos_cells": 27
+          },
+          {
+            "id": "us6000kd0n",
+            "time": "2023-05-19T02:57:03.172Z",
+            "mag": 7.7,
+            "n_pos_cells": 92
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "train": {
+        "n_events": 94,
+        "start_time": "2000-03-28T11:00:22.510Z",
+        "end_time": "2023-05-10T16:02:00.334Z",
+        "n_cells": 150400,
+        "n_pos_cells": 8107,
+        "n_aftershocks_in_grid": 29385,
+        "pos_prevalence": 0.05390292553191489,
+        "event_ids": [
+          "usp0009qb4",
+          "usp000a45f",
+          "usp000aj40",
+          "usp000bbpf",
+          "usp000c41f",
+          "official20041226005853450_30",
+          "usp000e8ys",
+          "usp000f2ab",
+          "usp000fn2b",
+          "usp000gv5p",
+          "usp000h2g9",
+          "usp000hgmh",
+          "usp000hvpg",
+          "usp000jrsw",
+          "usb000jyiv",
+          "usb000pr89",
+          "us20002ki3",
+          "us20005j32",
+          "us10007mn3",
+          "us2000d7q6",
+          "us70003kyy",
+          "us6000dg77",
+          "us6000iitd",
+          "us6000kd0n",
+          "usp0009txv",
+          "usp000a7m5",
+          "usp000azqw",
+          "ak002e435qpj",
+          "usp000cd1n",
+          "usp000dsw1",
+          "usp000eg5g",
+          "usp000f83m",
+          "usp000fu3q",
+          "usp000h05x",
+          "official20100227063411530_30",
+          "usp000hnj4",
+          "official20120411083836720_20",
+          "ak0138esnzr",
+          "usc000nzvd",
+          "us10001rvu",
+          "us10003re5",
+          "us1000778i",
+          "us20009x42",
+          "us2000h9e2",
+          "us70008fi4",
+          "ak0219neiszm",
+          "us6000jllz",
+          "us6000m0xl",
+          "usp000a3qq",
+          "usp000a8ds",
+          "usp000ba6g",
+          "usp000bnyr",
+          "usp000d85g",
+          "usp000dz2j",
+          "usp000ensm",
+          "usp000fjta",
+          "usp000g650",
+          "usp000h1ys",
+          "usp000hat0",
+          "official20110311054624120_30",
+          "usp000jhjb",
+          "usc000f1s0",
+          "usc000p27i",
+          "us20002926",
+          "us100040ww",
+          "us20007z80",
+          "us2000ahv0",
+          "us1000h3p4",
+          "us7000asvb",
+          "us6000f4ly",
+          "us6000jlqa",
+          "usp000a3sp",
+          "official20010623203314130_33",
+          "usp000ba6m",
+          "usp000c2ka",
+          "usp000db93",
+          "usp000e12e",
+          "usp000exfn",
+          "official20070912111026830_34",
+          "usp000gs2d",
+          "usp000h237",
+          "usp000hdwb",
+          "usp000hvpa",
+          "usp000jr83",
+          "usb000h4jh",
+          "usc000phx5",
+          "us20002bnf",
+          "us100040x6",
+          "us200081v8",
+          "us2000cmy3",
+          "us1000i2gt",
+          "us6000c9hg",
+          "us6000f53e",
+          "us6000kawn"
+        ],
+        "events": [
+          {
+            "id": "usp0009qb4",
+            "time": "2000-03-28T11:00:22.510Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000a45f",
+            "time": "2000-11-17T21:01:56.490Z",
+            "mag": 7.8,
+            "n_pos_cells": 207
+          },
+          {
+            "id": "usp000aj40",
+            "time": "2001-07-07T09:38:43.520Z",
+            "mag": 7.6,
+            "n_pos_cells": 72
+          },
+          {
+            "id": "usp000bbpf",
+            "time": "2002-09-08T18:44:23.710Z",
+            "mag": 7.6,
+            "n_pos_cells": 45
+          },
+          {
+            "id": "usp000c41f",
+            "time": "2003-08-04T04:37:20.130Z",
+            "mag": 7.6,
+            "n_pos_cells": 42
+          },
+          {
+            "id": "official20041226005853450_30",
+            "time": "2004-12-26T00:58:53.450Z",
+            "mag": 9.1,
+            "n_pos_cells": 104
+          },
+          {
+            "id": "usp000e8ys",
+            "time": "2006-01-27T16:58:53.670Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000f2ab",
+            "time": "2007-01-13T04:23:21.160Z",
+            "mag": 8.1,
+            "n_pos_cells": 96
+          },
+          {
+            "id": "usp000fn2b",
+            "time": "2007-09-12T23:49:03.720Z",
+            "mag": 7.9,
+            "n_pos_cells": 133
+          },
+          {
+            "id": "usp000gv5p",
+            "time": "2009-03-19T18:17:40.470Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000h2g9",
+            "time": "2009-10-07T22:03:14.470Z",
+            "mag": 7.7,
+            "n_pos_cells": 142
+          },
+          {
+            "id": "usp000hgmh",
+            "time": "2010-07-23T22:51:11.840Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000hvpg",
+            "time": "2011-03-11T06:25:50.300Z",
+            "mag": 7.7,
+            "n_pos_cells": 658
+          },
+          {
+            "id": "usp000jrsw",
+            "time": "2012-09-05T14:42:07.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 28
+          },
+          {
+            "id": "usb000jyiv",
+            "time": "2013-09-24T11:29:47.970Z",
+            "mag": 7.7,
+            "n_pos_cells": 30
+          },
+          {
+            "id": "usb000pr89",
+            "time": "2014-04-19T13:28:00.810Z",
+            "mag": 7.5,
+            "n_pos_cells": 156
+          },
+          {
+            "id": "us20002ki3",
+            "time": "2015-05-30T11:23:02.110Z",
+            "mag": 7.8,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "us20005j32",
+            "time": "2016-04-16T23:58:36.980Z",
+            "mag": 7.8,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "us10007mn3",
+            "time": "2016-12-25T14:22:27.010Z",
+            "mag": 7.6,
+            "n_pos_cells": 14
+          },
+          {
+            "id": "us2000d7q6",
+            "time": "2018-02-25T17:44:44.140Z",
+            "mag": 7.5,
+            "n_pos_cells": 118
+          },
+          {
+            "id": "us70003kyy",
+            "time": "2019-05-14T12:58:25.939Z",
+            "mag": 7.6,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us6000dg77",
+            "time": "2021-02-10T13:19:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 136
+          },
+          {
+            "id": "us6000iitd",
+            "time": "2022-09-10T23:47:00.233Z",
+            "mag": 7.6,
+            "n_pos_cells": 27
+          },
+          {
+            "id": "us6000kd0n",
+            "time": "2023-05-19T02:57:03.172Z",
+            "mag": 7.7,
+            "n_pos_cells": 92
+          },
+          {
+            "id": "usp0009txv",
+            "time": "2000-06-04T16:28:26.170Z",
+            "mag": 7.9,
+            "n_pos_cells": 78
+          },
+          {
+            "id": "usp000a7m5",
+            "time": "2001-01-13T17:33:32.380Z",
+            "mag": 7.7,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "usp000azqw",
+            "time": "2002-03-05T21:16:09.130Z",
+            "mag": 7.5,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "ak002e435qpj",
+            "time": "2002-11-03T22:12:41.518Z",
+            "mag": 7.9,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "usp000cd1n",
+            "time": "2003-11-17T06:43:06.800Z",
+            "mag": 7.8,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "usp000dsw1",
+            "time": "2005-06-13T22:44:33.900Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usp000eg5g",
+            "time": "2006-05-03T15:26:40.290Z",
+            "mag": 8.0,
+            "n_pos_cells": 88
+          },
+          {
+            "id": "usp000f83m",
+            "time": "2007-04-01T20:39:58.710Z",
+            "mag": 8.1,
+            "n_pos_cells": 100
+          },
+          {
+            "id": "usp000fu3q",
+            "time": "2007-12-09T07:28:20.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "usp000h05x",
+            "time": "2009-08-10T19:55:38.730Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "official20100227063411530_30",
+            "time": "2010-02-27T06:34:11.530Z",
+            "mag": 8.8,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000hnj4",
+            "time": "2010-10-25T14:42:22.460Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "official20120411083836720_20",
+            "time": "2012-04-11T08:38:36.720Z",
+            "mag": 8.6,
+            "n_pos_cells": 114
+          },
+          {
+            "id": "ak0138esnzr",
+            "time": "2013-01-05T08:58:14.957Z",
+            "mag": 7.5,
+            "n_pos_cells": 16
+          },
+          {
+            "id": "usc000nzvd",
+            "time": "2014-04-01T23:46:47.260Z",
+            "mag": 8.2,
+            "n_pos_cells": 74
+          },
+          {
+            "id": "us10001rvu",
+            "time": "2015-03-29T23:48:31.010Z",
+            "mag": 7.5,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "us10003re5",
+            "time": "2015-10-26T09:09:42.560Z",
+            "mag": 7.5,
+            "n_pos_cells": 24
+          },
+          {
+            "id": "us1000778i",
+            "time": "2016-11-13T11:02:56.340Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us20009x42",
+            "time": "2017-07-17T23:34:13.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us2000h9e2",
+            "time": "2018-09-06T15:49:18.710Z",
+            "mag": 7.9,
+            "n_pos_cells": 13
+          },
+          {
+            "id": "us70008fi4",
+            "time": "2020-03-25T02:49:21.160Z",
+            "mag": 7.5,
+            "n_pos_cells": 26
+          },
+          {
+            "id": "ak0219neiszm",
+            "time": "2021-07-29T06:15:49.188Z",
+            "mag": 8.2,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "us6000jllz",
+            "time": "2023-02-06T01:17:34.342Z",
+            "mag": 7.8,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us6000m0xl",
+            "time": "2024-01-01T07:10:09.476Z",
+            "mag": 7.5,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a3qq",
+            "time": "2000-11-16T04:54:56.740Z",
+            "mag": 8.0,
+            "n_pos_cells": 173
+          },
+          {
+            "id": "usp000a8ds",
+            "time": "2001-01-26T03:16:40.500Z",
+            "mag": 7.7,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "usp000ba6g",
+            "time": "2002-08-19T11:01:01.190Z",
+            "mag": 7.7,
+            "n_pos_cells": 37
+          },
+          {
+            "id": "usp000bnyr",
+            "time": "2003-01-22T02:06:34.610Z",
+            "mag": 7.6,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000d85g",
+            "time": "2004-11-11T21:26:41.150Z",
+            "mag": 7.5,
+            "n_pos_cells": 76
+          },
+          {
+            "id": "usp000dz2j",
+            "time": "2005-09-09T07:26:43.730Z",
+            "mag": 7.6,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "usp000ensm",
+            "time": "2006-07-17T08:19:26.680Z",
+            "mag": 7.7,
+            "n_pos_cells": 146
+          },
+          {
+            "id": "usp000fjta",
+            "time": "2007-08-15T23:40:57.890Z",
+            "mag": 8.0,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000g650",
+            "time": "2008-05-12T06:28:01.570Z",
+            "mag": 7.9,
+            "n_pos_cells": 99
+          },
+          {
+            "id": "usp000h1ys",
+            "time": "2009-09-29T17:48:10.990Z",
+            "mag": 8.1,
+            "n_pos_cells": 107
+          },
+          {
+            "id": "usp000hat0",
+            "time": "2010-04-06T22:15:01.580Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "official20110311054624120_30",
+            "time": "2011-03-11T05:46:24.120Z",
+            "mag": 9.1,
+            "n_pos_cells": 90
+          },
+          {
+            "id": "usp000jhjb",
+            "time": "2012-04-11T10:43:10.850Z",
+            "mag": 8.2,
+            "n_pos_cells": 157
+          },
+          {
+            "id": "usc000f1s0",
+            "time": "2013-02-06T01:12:25.830Z",
+            "mag": 8.0,
+            "n_pos_cells": 117
+          },
+          {
+            "id": "usc000p27i",
+            "time": "2014-04-03T02:43:13.110Z",
+            "mag": 7.7,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "us20002926",
+            "time": "2015-04-25T06:11:25.950Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us100040ww",
+            "time": "2015-11-24T22:45:38.880Z",
+            "mag": 7.6,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us20007z80",
+            "time": "2016-12-08T17:38:46.280Z",
+            "mag": 7.8,
+            "n_pos_cells": 105
+          },
+          {
+            "id": "us2000ahv0",
+            "time": "2017-09-08T04:49:19.180Z",
+            "mag": 8.2,
+            "n_pos_cells": 85
+          },
+          {
+            "id": "us1000h3p4",
+            "time": "2018-09-28T10:02:45.250Z",
+            "mag": 7.5,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us7000asvb",
+            "time": "2020-07-22T06:12:44.810Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us6000f4ly",
+            "time": "2021-08-12T18:32:52.464Z",
+            "mag": 7.5,
+            "n_pos_cells": 329
+          },
+          {
+            "id": "us6000jlqa",
+            "time": "2023-02-06T10:24:48.811Z",
+            "mag": 7.5,
+            "n_pos_cells": 144
+          },
+          {
+            "id": "usp000a3sp",
+            "time": "2000-11-16T07:42:16.930Z",
+            "mag": 7.8,
+            "n_pos_cells": 230
+          },
+          {
+            "id": "official20010623203314130_33",
+            "time": "2001-06-23T20:33:14.130Z",
+            "mag": 8.4,
+            "n_pos_cells": 69
+          },
+          {
+            "id": "usp000ba6m",
+            "time": "2002-08-19T11:08:24.310Z",
+            "mag": 7.7,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000c2ka",
+            "time": "2003-07-15T20:27:50.530Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          },
+          {
+            "id": "usp000db93",
+            "time": "2004-12-23T14:59:04.410Z",
+            "mag": 8.1,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "usp000e12e",
+            "time": "2005-10-08T03:50:40.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000exfn",
+            "time": "2006-11-15T11:14:13.570Z",
+            "mag": 8.3,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "official20070912111026830_34",
+            "time": "2007-09-12T11:10:26.830Z",
+            "mag": 8.4,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "usp000gs2d",
+            "time": "2009-01-03T19:43:50.650Z",
+            "mag": 7.7,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000h237",
+            "time": "2009-09-30T10:16:09.250Z",
+            "mag": 7.6,
+            "n_pos_cells": 20
+          },
+          {
+            "id": "usp000hdwb",
+            "time": "2010-06-12T19:26:50.460Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "usp000hvpa",
+            "time": "2011-03-11T06:15:40.280Z",
+            "mag": 7.9,
+            "n_pos_cells": 508
+          },
+          {
+            "id": "usp000jr83",
+            "time": "2012-08-31T12:47:33.380Z",
+            "mag": 7.6,
+            "n_pos_cells": 108
+          },
+          {
+            "id": "usb000h4jh",
+            "time": "2013-05-24T05:44:48.980Z",
+            "mag": 8.3,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usc000phx5",
+            "time": "2014-04-12T20:14:39.300Z",
+            "mag": 7.6,
+            "n_pos_cells": 109
+          },
+          {
+            "id": "us20002bnf",
+            "time": "2015-05-05T01:44:06.380Z",
+            "mag": 7.5,
+            "n_pos_cells": 120
+          },
+          {
+            "id": "us100040x6",
+            "time": "2015-11-24T22:50:54.370Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "us200081v8",
+            "time": "2016-12-17T10:51:10.500Z",
+            "mag": 7.9,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us2000cmy3",
+            "time": "2018-01-23T09:31:40.890Z",
+            "mag": 7.9,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us1000i2gt",
+            "time": "2018-12-05T04:18:08.420Z",
+            "mag": 7.5,
+            "n_pos_cells": 112
+          },
+          {
+            "id": "us6000c9hg",
+            "time": "2020-10-19T20:54:38.950Z",
+            "mag": 7.6,
+            "n_pos_cells": 29
+          },
+          {
+            "id": "us6000f53e",
+            "time": "2021-08-12T18:35:17.231Z",
+            "mag": 8.1,
+            "n_pos_cells": 213
+          },
+          {
+            "id": "us6000kawn",
+            "time": "2023-05-10T16:02:00.334Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          }
+        ]
+      },
+      "test": {
+        "n_events": 24,
+        "start_time": "2000-05-04T04:21:16.210Z",
+        "end_time": "2023-12-02T14:37:04.454Z",
+        "n_cells": 38400,
+        "n_pos_cells": 1798,
+        "n_aftershocks_in_grid": 6170,
+        "pos_prevalence": 0.046822916666666665,
+        "event_ids": [
+          "usp0009sbh",
+          "usp000a70h",
+          "usp000asvm",
+          "usp000be54",
+          "official20030925195006360_27",
+          "official20050328160936530_30",
+          "usp000ef1h",
+          "usp000f34b",
+          "usp000fshy",
+          "usp000gz8j",
+          "usp000h2gd",
+          "usp000hgmq",
+          "usp000j48h",
+          "usp000juhz",
+          "usb000l0gq",
+          "usc000rki5",
+          "us20003k7a",
+          "us100068jg",
+          "us10007uph",
+          "us1000gcii",
+          "us60007idc",
+          "us7000dflf",
+          "us7000j36j",
+          "us7000lff4"
+        ],
+        "events": [
+          {
+            "id": "usp0009sbh",
+            "time": "2000-05-04T04:21:16.210Z",
+            "mag": 7.6,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a70h",
+            "time": "2001-01-01T06:57:04.170Z",
+            "mag": 7.5,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000asvm",
+            "time": "2001-11-14T09:26:10.010Z",
+            "mag": 7.8,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000be54",
+            "time": "2002-10-10T10:50:20.570Z",
+            "mag": 7.6,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "official20030925195006360_27",
+            "time": "2003-09-25T19:50:06.360Z",
+            "mag": 8.16,
+            "n_pos_cells": 63
+          },
+          {
+            "id": "official20050328160936530_30",
+            "time": "2005-03-28T16:09:36.530Z",
+            "mag": 8.6,
+            "n_pos_cells": 169
+          },
+          {
+            "id": "usp000ef1h",
+            "time": "2006-04-20T23:25:02.150Z",
+            "mag": 7.6,
+            "n_pos_cells": 84
+          },
+          {
+            "id": "usp000f34b",
+            "time": "2007-01-21T11:27:45.060Z",
+            "mag": 7.5,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000fshy",
+            "time": "2007-11-14T15:40:50.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 49
+          },
+          {
+            "id": "usp000gz8j",
+            "time": "2009-07-15T09:22:29.030Z",
+            "mag": 7.8,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000h2gd",
+            "time": "2009-10-07T22:18:51.240Z",
+            "mag": 7.8,
+            "n_pos_cells": 128
+          },
+          {
+            "id": "usp000hgmq",
+            "time": "2010-07-23T23:15:10.190Z",
+            "mag": 7.5,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000j48h",
+            "time": "2011-07-06T19:03:18.260Z",
+            "mag": 7.6,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "usp000juhz",
+            "time": "2012-10-28T03:04:08.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "usb000l0gq",
+            "time": "2013-11-17T09:04:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 91
+          },
+          {
+            "id": "usc000rki5",
+            "time": "2014-06-23T20:53:09.700Z",
+            "mag": 7.9,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "us20003k7a",
+            "time": "2015-09-16T22:54:32.860Z",
+            "mag": 8.3,
+            "n_pos_cells": 82
+          },
+          {
+            "id": "us100068jg",
+            "time": "2016-07-29T21:18:24.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 43
+          },
+          {
+            "id": "us10007uph",
+            "time": "2017-01-22T04:30:22.960Z",
+            "mag": 7.9,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us1000gcii",
+            "time": "2018-08-19T00:19:40.670Z",
+            "mag": 8.2,
+            "n_pos_cells": 110
+          },
+          {
+            "id": "us60007idc",
+            "time": "2020-01-28T19:10:24.918Z",
+            "mag": 7.7,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us7000dflf",
+            "time": "2021-03-04T19:28:33.178Z",
+            "mag": 8.1,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "us7000j36j",
+            "time": "2023-01-09T17:47:35.037Z",
+            "mag": 7.6,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "us7000lff4",
+            "time": "2023-12-02T14:37:04.454Z",
+            "mag": 7.6,
+            "n_pos_cells": 168
+          }
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "train": {
+        "n_events": 94,
+        "start_time": "2000-03-28T11:00:22.510Z",
+        "end_time": "2023-05-10T16:02:00.334Z",
+        "n_cells": 150400,
+        "n_pos_cells": 8485,
+        "n_aftershocks_in_grid": 30335,
+        "pos_prevalence": 0.05641622340425532,
+        "event_ids": [
+          "usp0009qb4",
+          "usp000a45f",
+          "usp000aj40",
+          "usp000bbpf",
+          "usp000c41f",
+          "official20041226005853450_30",
+          "usp000e8ys",
+          "usp000f2ab",
+          "usp000fn2b",
+          "usp000gv5p",
+          "usp000h2g9",
+          "usp000hgmh",
+          "usp000hvpg",
+          "usp000jrsw",
+          "usb000jyiv",
+          "usb000pr89",
+          "us20002ki3",
+          "us20005j32",
+          "us10007mn3",
+          "us2000d7q6",
+          "us70003kyy",
+          "us6000dg77",
+          "us6000iitd",
+          "us6000kd0n",
+          "usp0009sbh",
+          "usp000a70h",
+          "usp000asvm",
+          "usp000be54",
+          "official20030925195006360_27",
+          "official20050328160936530_30",
+          "usp000ef1h",
+          "usp000f34b",
+          "usp000fshy",
+          "usp000gz8j",
+          "usp000h2gd",
+          "usp000hgmq",
+          "usp000j48h",
+          "usp000juhz",
+          "usb000l0gq",
+          "usc000rki5",
+          "us20003k7a",
+          "us100068jg",
+          "us10007uph",
+          "us1000gcii",
+          "us60007idc",
+          "us7000dflf",
+          "us7000j36j",
+          "us7000lff4",
+          "usp000a3qq",
+          "usp000a8ds",
+          "usp000ba6g",
+          "usp000bnyr",
+          "usp000d85g",
+          "usp000dz2j",
+          "usp000ensm",
+          "usp000fjta",
+          "usp000g650",
+          "usp000h1ys",
+          "usp000hat0",
+          "official20110311054624120_30",
+          "usp000jhjb",
+          "usc000f1s0",
+          "usc000p27i",
+          "us20002926",
+          "us100040ww",
+          "us20007z80",
+          "us2000ahv0",
+          "us1000h3p4",
+          "us7000asvb",
+          "us6000f4ly",
+          "us6000jlqa",
+          "usp000a3sp",
+          "official20010623203314130_33",
+          "usp000ba6m",
+          "usp000c2ka",
+          "usp000db93",
+          "usp000e12e",
+          "usp000exfn",
+          "official20070912111026830_34",
+          "usp000gs2d",
+          "usp000h237",
+          "usp000hdwb",
+          "usp000hvpa",
+          "usp000jr83",
+          "usb000h4jh",
+          "usc000phx5",
+          "us20002bnf",
+          "us100040x6",
+          "us200081v8",
+          "us2000cmy3",
+          "us1000i2gt",
+          "us6000c9hg",
+          "us6000f53e",
+          "us6000kawn"
+        ],
+        "events": [
+          {
+            "id": "usp0009qb4",
+            "time": "2000-03-28T11:00:22.510Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000a45f",
+            "time": "2000-11-17T21:01:56.490Z",
+            "mag": 7.8,
+            "n_pos_cells": 207
+          },
+          {
+            "id": "usp000aj40",
+            "time": "2001-07-07T09:38:43.520Z",
+            "mag": 7.6,
+            "n_pos_cells": 72
+          },
+          {
+            "id": "usp000bbpf",
+            "time": "2002-09-08T18:44:23.710Z",
+            "mag": 7.6,
+            "n_pos_cells": 45
+          },
+          {
+            "id": "usp000c41f",
+            "time": "2003-08-04T04:37:20.130Z",
+            "mag": 7.6,
+            "n_pos_cells": 42
+          },
+          {
+            "id": "official20041226005853450_30",
+            "time": "2004-12-26T00:58:53.450Z",
+            "mag": 9.1,
+            "n_pos_cells": 104
+          },
+          {
+            "id": "usp000e8ys",
+            "time": "2006-01-27T16:58:53.670Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000f2ab",
+            "time": "2007-01-13T04:23:21.160Z",
+            "mag": 8.1,
+            "n_pos_cells": 96
+          },
+          {
+            "id": "usp000fn2b",
+            "time": "2007-09-12T23:49:03.720Z",
+            "mag": 7.9,
+            "n_pos_cells": 133
+          },
+          {
+            "id": "usp000gv5p",
+            "time": "2009-03-19T18:17:40.470Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000h2g9",
+            "time": "2009-10-07T22:03:14.470Z",
+            "mag": 7.7,
+            "n_pos_cells": 142
+          },
+          {
+            "id": "usp000hgmh",
+            "time": "2010-07-23T22:51:11.840Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000hvpg",
+            "time": "2011-03-11T06:25:50.300Z",
+            "mag": 7.7,
+            "n_pos_cells": 658
+          },
+          {
+            "id": "usp000jrsw",
+            "time": "2012-09-05T14:42:07.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 28
+          },
+          {
+            "id": "usb000jyiv",
+            "time": "2013-09-24T11:29:47.970Z",
+            "mag": 7.7,
+            "n_pos_cells": 30
+          },
+          {
+            "id": "usb000pr89",
+            "time": "2014-04-19T13:28:00.810Z",
+            "mag": 7.5,
+            "n_pos_cells": 156
+          },
+          {
+            "id": "us20002ki3",
+            "time": "2015-05-30T11:23:02.110Z",
+            "mag": 7.8,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "us20005j32",
+            "time": "2016-04-16T23:58:36.980Z",
+            "mag": 7.8,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "us10007mn3",
+            "time": "2016-12-25T14:22:27.010Z",
+            "mag": 7.6,
+            "n_pos_cells": 14
+          },
+          {
+            "id": "us2000d7q6",
+            "time": "2018-02-25T17:44:44.140Z",
+            "mag": 7.5,
+            "n_pos_cells": 118
+          },
+          {
+            "id": "us70003kyy",
+            "time": "2019-05-14T12:58:25.939Z",
+            "mag": 7.6,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us6000dg77",
+            "time": "2021-02-10T13:19:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 136
+          },
+          {
+            "id": "us6000iitd",
+            "time": "2022-09-10T23:47:00.233Z",
+            "mag": 7.6,
+            "n_pos_cells": 27
+          },
+          {
+            "id": "us6000kd0n",
+            "time": "2023-05-19T02:57:03.172Z",
+            "mag": 7.7,
+            "n_pos_cells": 92
+          },
+          {
+            "id": "usp0009sbh",
+            "time": "2000-05-04T04:21:16.210Z",
+            "mag": 7.6,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a70h",
+            "time": "2001-01-01T06:57:04.170Z",
+            "mag": 7.5,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000asvm",
+            "time": "2001-11-14T09:26:10.010Z",
+            "mag": 7.8,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000be54",
+            "time": "2002-10-10T10:50:20.570Z",
+            "mag": 7.6,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "official20030925195006360_27",
+            "time": "2003-09-25T19:50:06.360Z",
+            "mag": 8.16,
+            "n_pos_cells": 63
+          },
+          {
+            "id": "official20050328160936530_30",
+            "time": "2005-03-28T16:09:36.530Z",
+            "mag": 8.6,
+            "n_pos_cells": 169
+          },
+          {
+            "id": "usp000ef1h",
+            "time": "2006-04-20T23:25:02.150Z",
+            "mag": 7.6,
+            "n_pos_cells": 84
+          },
+          {
+            "id": "usp000f34b",
+            "time": "2007-01-21T11:27:45.060Z",
+            "mag": 7.5,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000fshy",
+            "time": "2007-11-14T15:40:50.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 49
+          },
+          {
+            "id": "usp000gz8j",
+            "time": "2009-07-15T09:22:29.030Z",
+            "mag": 7.8,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000h2gd",
+            "time": "2009-10-07T22:18:51.240Z",
+            "mag": 7.8,
+            "n_pos_cells": 128
+          },
+          {
+            "id": "usp000hgmq",
+            "time": "2010-07-23T23:15:10.190Z",
+            "mag": 7.5,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000j48h",
+            "time": "2011-07-06T19:03:18.260Z",
+            "mag": 7.6,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "usp000juhz",
+            "time": "2012-10-28T03:04:08.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "usb000l0gq",
+            "time": "2013-11-17T09:04:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 91
+          },
+          {
+            "id": "usc000rki5",
+            "time": "2014-06-23T20:53:09.700Z",
+            "mag": 7.9,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "us20003k7a",
+            "time": "2015-09-16T22:54:32.860Z",
+            "mag": 8.3,
+            "n_pos_cells": 82
+          },
+          {
+            "id": "us100068jg",
+            "time": "2016-07-29T21:18:24.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 43
+          },
+          {
+            "id": "us10007uph",
+            "time": "2017-01-22T04:30:22.960Z",
+            "mag": 7.9,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us1000gcii",
+            "time": "2018-08-19T00:19:40.670Z",
+            "mag": 8.2,
+            "n_pos_cells": 110
+          },
+          {
+            "id": "us60007idc",
+            "time": "2020-01-28T19:10:24.918Z",
+            "mag": 7.7,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us7000dflf",
+            "time": "2021-03-04T19:28:33.178Z",
+            "mag": 8.1,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "us7000j36j",
+            "time": "2023-01-09T17:47:35.037Z",
+            "mag": 7.6,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "us7000lff4",
+            "time": "2023-12-02T14:37:04.454Z",
+            "mag": 7.6,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "usp000a3qq",
+            "time": "2000-11-16T04:54:56.740Z",
+            "mag": 8.0,
+            "n_pos_cells": 173
+          },
+          {
+            "id": "usp000a8ds",
+            "time": "2001-01-26T03:16:40.500Z",
+            "mag": 7.7,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "usp000ba6g",
+            "time": "2002-08-19T11:01:01.190Z",
+            "mag": 7.7,
+            "n_pos_cells": 37
+          },
+          {
+            "id": "usp000bnyr",
+            "time": "2003-01-22T02:06:34.610Z",
+            "mag": 7.6,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000d85g",
+            "time": "2004-11-11T21:26:41.150Z",
+            "mag": 7.5,
+            "n_pos_cells": 76
+          },
+          {
+            "id": "usp000dz2j",
+            "time": "2005-09-09T07:26:43.730Z",
+            "mag": 7.6,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "usp000ensm",
+            "time": "2006-07-17T08:19:26.680Z",
+            "mag": 7.7,
+            "n_pos_cells": 146
+          },
+          {
+            "id": "usp000fjta",
+            "time": "2007-08-15T23:40:57.890Z",
+            "mag": 8.0,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000g650",
+            "time": "2008-05-12T06:28:01.570Z",
+            "mag": 7.9,
+            "n_pos_cells": 99
+          },
+          {
+            "id": "usp000h1ys",
+            "time": "2009-09-29T17:48:10.990Z",
+            "mag": 8.1,
+            "n_pos_cells": 107
+          },
+          {
+            "id": "usp000hat0",
+            "time": "2010-04-06T22:15:01.580Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "official20110311054624120_30",
+            "time": "2011-03-11T05:46:24.120Z",
+            "mag": 9.1,
+            "n_pos_cells": 90
+          },
+          {
+            "id": "usp000jhjb",
+            "time": "2012-04-11T10:43:10.850Z",
+            "mag": 8.2,
+            "n_pos_cells": 157
+          },
+          {
+            "id": "usc000f1s0",
+            "time": "2013-02-06T01:12:25.830Z",
+            "mag": 8.0,
+            "n_pos_cells": 117
+          },
+          {
+            "id": "usc000p27i",
+            "time": "2014-04-03T02:43:13.110Z",
+            "mag": 7.7,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "us20002926",
+            "time": "2015-04-25T06:11:25.950Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us100040ww",
+            "time": "2015-11-24T22:45:38.880Z",
+            "mag": 7.6,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us20007z80",
+            "time": "2016-12-08T17:38:46.280Z",
+            "mag": 7.8,
+            "n_pos_cells": 105
+          },
+          {
+            "id": "us2000ahv0",
+            "time": "2017-09-08T04:49:19.180Z",
+            "mag": 8.2,
+            "n_pos_cells": 85
+          },
+          {
+            "id": "us1000h3p4",
+            "time": "2018-09-28T10:02:45.250Z",
+            "mag": 7.5,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us7000asvb",
+            "time": "2020-07-22T06:12:44.810Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us6000f4ly",
+            "time": "2021-08-12T18:32:52.464Z",
+            "mag": 7.5,
+            "n_pos_cells": 329
+          },
+          {
+            "id": "us6000jlqa",
+            "time": "2023-02-06T10:24:48.811Z",
+            "mag": 7.5,
+            "n_pos_cells": 144
+          },
+          {
+            "id": "usp000a3sp",
+            "time": "2000-11-16T07:42:16.930Z",
+            "mag": 7.8,
+            "n_pos_cells": 230
+          },
+          {
+            "id": "official20010623203314130_33",
+            "time": "2001-06-23T20:33:14.130Z",
+            "mag": 8.4,
+            "n_pos_cells": 69
+          },
+          {
+            "id": "usp000ba6m",
+            "time": "2002-08-19T11:08:24.310Z",
+            "mag": 7.7,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000c2ka",
+            "time": "2003-07-15T20:27:50.530Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          },
+          {
+            "id": "usp000db93",
+            "time": "2004-12-23T14:59:04.410Z",
+            "mag": 8.1,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "usp000e12e",
+            "time": "2005-10-08T03:50:40.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000exfn",
+            "time": "2006-11-15T11:14:13.570Z",
+            "mag": 8.3,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "official20070912111026830_34",
+            "time": "2007-09-12T11:10:26.830Z",
+            "mag": 8.4,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "usp000gs2d",
+            "time": "2009-01-03T19:43:50.650Z",
+            "mag": 7.7,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000h237",
+            "time": "2009-09-30T10:16:09.250Z",
+            "mag": 7.6,
+            "n_pos_cells": 20
+          },
+          {
+            "id": "usp000hdwb",
+            "time": "2010-06-12T19:26:50.460Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "usp000hvpa",
+            "time": "2011-03-11T06:15:40.280Z",
+            "mag": 7.9,
+            "n_pos_cells": 508
+          },
+          {
+            "id": "usp000jr83",
+            "time": "2012-08-31T12:47:33.380Z",
+            "mag": 7.6,
+            "n_pos_cells": 108
+          },
+          {
+            "id": "usb000h4jh",
+            "time": "2013-05-24T05:44:48.980Z",
+            "mag": 8.3,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usc000phx5",
+            "time": "2014-04-12T20:14:39.300Z",
+            "mag": 7.6,
+            "n_pos_cells": 109
+          },
+          {
+            "id": "us20002bnf",
+            "time": "2015-05-05T01:44:06.380Z",
+            "mag": 7.5,
+            "n_pos_cells": 120
+          },
+          {
+            "id": "us100040x6",
+            "time": "2015-11-24T22:50:54.370Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "us200081v8",
+            "time": "2016-12-17T10:51:10.500Z",
+            "mag": 7.9,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us2000cmy3",
+            "time": "2018-01-23T09:31:40.890Z",
+            "mag": 7.9,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us1000i2gt",
+            "time": "2018-12-05T04:18:08.420Z",
+            "mag": 7.5,
+            "n_pos_cells": 112
+          },
+          {
+            "id": "us6000c9hg",
+            "time": "2020-10-19T20:54:38.950Z",
+            "mag": 7.6,
+            "n_pos_cells": 29
+          },
+          {
+            "id": "us6000f53e",
+            "time": "2021-08-12T18:35:17.231Z",
+            "mag": 8.1,
+            "n_pos_cells": 213
+          },
+          {
+            "id": "us6000kawn",
+            "time": "2023-05-10T16:02:00.334Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          }
+        ]
+      },
+      "test": {
+        "n_events": 24,
+        "start_time": "2000-06-04T16:28:26.170Z",
+        "end_time": "2024-01-01T07:10:09.476Z",
+        "n_cells": 38400,
+        "n_pos_cells": 1420,
+        "n_aftershocks_in_grid": 5220,
+        "pos_prevalence": 0.03697916666666667,
+        "event_ids": [
+          "usp0009txv",
+          "usp000a7m5",
+          "usp000azqw",
+          "ak002e435qpj",
+          "usp000cd1n",
+          "usp000dsw1",
+          "usp000eg5g",
+          "usp000f83m",
+          "usp000fu3q",
+          "usp000h05x",
+          "official20100227063411530_30",
+          "usp000hnj4",
+          "official20120411083836720_20",
+          "ak0138esnzr",
+          "usc000nzvd",
+          "us10001rvu",
+          "us10003re5",
+          "us1000778i",
+          "us20009x42",
+          "us2000h9e2",
+          "us70008fi4",
+          "ak0219neiszm",
+          "us6000jllz",
+          "us6000m0xl"
+        ],
+        "events": [
+          {
+            "id": "usp0009txv",
+            "time": "2000-06-04T16:28:26.170Z",
+            "mag": 7.9,
+            "n_pos_cells": 78
+          },
+          {
+            "id": "usp000a7m5",
+            "time": "2001-01-13T17:33:32.380Z",
+            "mag": 7.7,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "usp000azqw",
+            "time": "2002-03-05T21:16:09.130Z",
+            "mag": 7.5,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "ak002e435qpj",
+            "time": "2002-11-03T22:12:41.518Z",
+            "mag": 7.9,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "usp000cd1n",
+            "time": "2003-11-17T06:43:06.800Z",
+            "mag": 7.8,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "usp000dsw1",
+            "time": "2005-06-13T22:44:33.900Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usp000eg5g",
+            "time": "2006-05-03T15:26:40.290Z",
+            "mag": 8.0,
+            "n_pos_cells": 88
+          },
+          {
+            "id": "usp000f83m",
+            "time": "2007-04-01T20:39:58.710Z",
+            "mag": 8.1,
+            "n_pos_cells": 100
+          },
+          {
+            "id": "usp000fu3q",
+            "time": "2007-12-09T07:28:20.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "usp000h05x",
+            "time": "2009-08-10T19:55:38.730Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "official20100227063411530_30",
+            "time": "2010-02-27T06:34:11.530Z",
+            "mag": 8.8,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000hnj4",
+            "time": "2010-10-25T14:42:22.460Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "official20120411083836720_20",
+            "time": "2012-04-11T08:38:36.720Z",
+            "mag": 8.6,
+            "n_pos_cells": 114
+          },
+          {
+            "id": "ak0138esnzr",
+            "time": "2013-01-05T08:58:14.957Z",
+            "mag": 7.5,
+            "n_pos_cells": 16
+          },
+          {
+            "id": "usc000nzvd",
+            "time": "2014-04-01T23:46:47.260Z",
+            "mag": 8.2,
+            "n_pos_cells": 74
+          },
+          {
+            "id": "us10001rvu",
+            "time": "2015-03-29T23:48:31.010Z",
+            "mag": 7.5,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "us10003re5",
+            "time": "2015-10-26T09:09:42.560Z",
+            "mag": 7.5,
+            "n_pos_cells": 24
+          },
+          {
+            "id": "us1000778i",
+            "time": "2016-11-13T11:02:56.340Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us20009x42",
+            "time": "2017-07-17T23:34:13.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us2000h9e2",
+            "time": "2018-09-06T15:49:18.710Z",
+            "mag": 7.9,
+            "n_pos_cells": 13
+          },
+          {
+            "id": "us70008fi4",
+            "time": "2020-03-25T02:49:21.160Z",
+            "mag": 7.5,
+            "n_pos_cells": 26
+          },
+          {
+            "id": "ak0219neiszm",
+            "time": "2021-07-29T06:15:49.188Z",
+            "mag": 8.2,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "us6000jllz",
+            "time": "2023-02-06T01:17:34.342Z",
+            "mag": 7.8,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us6000m0xl",
+            "time": "2024-01-01T07:10:09.476Z",
+            "mag": 7.5,
+            "n_pos_cells": 44
+          }
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "train": {
+        "n_events": 95,
+        "start_time": "2000-03-28T11:00:22.510Z",
+        "end_time": "2023-05-10T16:02:00.334Z",
+        "n_cells": 152000,
+        "n_pos_cells": 7710,
+        "n_aftershocks_in_grid": 26381,
+        "pos_prevalence": 0.05072368421052632,
+        "event_ids": [
+          "usp0009qb4",
+          "usp000a45f",
+          "usp000aj40",
+          "usp000bbpf",
+          "usp000c41f",
+          "official20041226005853450_30",
+          "usp000e8ys",
+          "usp000f2ab",
+          "usp000fn2b",
+          "usp000gv5p",
+          "usp000h2g9",
+          "usp000hgmh",
+          "usp000hvpg",
+          "usp000jrsw",
+          "usb000jyiv",
+          "usb000pr89",
+          "us20002ki3",
+          "us20005j32",
+          "us10007mn3",
+          "us2000d7q6",
+          "us70003kyy",
+          "us6000dg77",
+          "us6000iitd",
+          "us6000kd0n",
+          "usp0009sbh",
+          "usp000a70h",
+          "usp000asvm",
+          "usp000be54",
+          "official20030925195006360_27",
+          "official20050328160936530_30",
+          "usp000ef1h",
+          "usp000f34b",
+          "usp000fshy",
+          "usp000gz8j",
+          "usp000h2gd",
+          "usp000hgmq",
+          "usp000j48h",
+          "usp000juhz",
+          "usb000l0gq",
+          "usc000rki5",
+          "us20003k7a",
+          "us100068jg",
+          "us10007uph",
+          "us1000gcii",
+          "us60007idc",
+          "us7000dflf",
+          "us7000j36j",
+          "us7000lff4",
+          "usp0009txv",
+          "usp000a7m5",
+          "usp000azqw",
+          "ak002e435qpj",
+          "usp000cd1n",
+          "usp000dsw1",
+          "usp000eg5g",
+          "usp000f83m",
+          "usp000fu3q",
+          "usp000h05x",
+          "official20100227063411530_30",
+          "usp000hnj4",
+          "official20120411083836720_20",
+          "ak0138esnzr",
+          "usc000nzvd",
+          "us10001rvu",
+          "us10003re5",
+          "us1000778i",
+          "us20009x42",
+          "us2000h9e2",
+          "us70008fi4",
+          "ak0219neiszm",
+          "us6000jllz",
+          "us6000m0xl",
+          "usp000a3sp",
+          "official20010623203314130_33",
+          "usp000ba6m",
+          "usp000c2ka",
+          "usp000db93",
+          "usp000e12e",
+          "usp000exfn",
+          "official20070912111026830_34",
+          "usp000gs2d",
+          "usp000h237",
+          "usp000hdwb",
+          "usp000hvpa",
+          "usp000jr83",
+          "usb000h4jh",
+          "usc000phx5",
+          "us20002bnf",
+          "us100040x6",
+          "us200081v8",
+          "us2000cmy3",
+          "us1000i2gt",
+          "us6000c9hg",
+          "us6000f53e",
+          "us6000kawn"
+        ],
+        "events": [
+          {
+            "id": "usp0009qb4",
+            "time": "2000-03-28T11:00:22.510Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000a45f",
+            "time": "2000-11-17T21:01:56.490Z",
+            "mag": 7.8,
+            "n_pos_cells": 207
+          },
+          {
+            "id": "usp000aj40",
+            "time": "2001-07-07T09:38:43.520Z",
+            "mag": 7.6,
+            "n_pos_cells": 72
+          },
+          {
+            "id": "usp000bbpf",
+            "time": "2002-09-08T18:44:23.710Z",
+            "mag": 7.6,
+            "n_pos_cells": 45
+          },
+          {
+            "id": "usp000c41f",
+            "time": "2003-08-04T04:37:20.130Z",
+            "mag": 7.6,
+            "n_pos_cells": 42
+          },
+          {
+            "id": "official20041226005853450_30",
+            "time": "2004-12-26T00:58:53.450Z",
+            "mag": 9.1,
+            "n_pos_cells": 104
+          },
+          {
+            "id": "usp000e8ys",
+            "time": "2006-01-27T16:58:53.670Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000f2ab",
+            "time": "2007-01-13T04:23:21.160Z",
+            "mag": 8.1,
+            "n_pos_cells": 96
+          },
+          {
+            "id": "usp000fn2b",
+            "time": "2007-09-12T23:49:03.720Z",
+            "mag": 7.9,
+            "n_pos_cells": 133
+          },
+          {
+            "id": "usp000gv5p",
+            "time": "2009-03-19T18:17:40.470Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000h2g9",
+            "time": "2009-10-07T22:03:14.470Z",
+            "mag": 7.7,
+            "n_pos_cells": 142
+          },
+          {
+            "id": "usp000hgmh",
+            "time": "2010-07-23T22:51:11.840Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000hvpg",
+            "time": "2011-03-11T06:25:50.300Z",
+            "mag": 7.7,
+            "n_pos_cells": 658
+          },
+          {
+            "id": "usp000jrsw",
+            "time": "2012-09-05T14:42:07.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 28
+          },
+          {
+            "id": "usb000jyiv",
+            "time": "2013-09-24T11:29:47.970Z",
+            "mag": 7.7,
+            "n_pos_cells": 30
+          },
+          {
+            "id": "usb000pr89",
+            "time": "2014-04-19T13:28:00.810Z",
+            "mag": 7.5,
+            "n_pos_cells": 156
+          },
+          {
+            "id": "us20002ki3",
+            "time": "2015-05-30T11:23:02.110Z",
+            "mag": 7.8,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "us20005j32",
+            "time": "2016-04-16T23:58:36.980Z",
+            "mag": 7.8,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "us10007mn3",
+            "time": "2016-12-25T14:22:27.010Z",
+            "mag": 7.6,
+            "n_pos_cells": 14
+          },
+          {
+            "id": "us2000d7q6",
+            "time": "2018-02-25T17:44:44.140Z",
+            "mag": 7.5,
+            "n_pos_cells": 118
+          },
+          {
+            "id": "us70003kyy",
+            "time": "2019-05-14T12:58:25.939Z",
+            "mag": 7.6,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us6000dg77",
+            "time": "2021-02-10T13:19:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 136
+          },
+          {
+            "id": "us6000iitd",
+            "time": "2022-09-10T23:47:00.233Z",
+            "mag": 7.6,
+            "n_pos_cells": 27
+          },
+          {
+            "id": "us6000kd0n",
+            "time": "2023-05-19T02:57:03.172Z",
+            "mag": 7.7,
+            "n_pos_cells": 92
+          },
+          {
+            "id": "usp0009sbh",
+            "time": "2000-05-04T04:21:16.210Z",
+            "mag": 7.6,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a70h",
+            "time": "2001-01-01T06:57:04.170Z",
+            "mag": 7.5,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000asvm",
+            "time": "2001-11-14T09:26:10.010Z",
+            "mag": 7.8,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000be54",
+            "time": "2002-10-10T10:50:20.570Z",
+            "mag": 7.6,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "official20030925195006360_27",
+            "time": "2003-09-25T19:50:06.360Z",
+            "mag": 8.16,
+            "n_pos_cells": 63
+          },
+          {
+            "id": "official20050328160936530_30",
+            "time": "2005-03-28T16:09:36.530Z",
+            "mag": 8.6,
+            "n_pos_cells": 169
+          },
+          {
+            "id": "usp000ef1h",
+            "time": "2006-04-20T23:25:02.150Z",
+            "mag": 7.6,
+            "n_pos_cells": 84
+          },
+          {
+            "id": "usp000f34b",
+            "time": "2007-01-21T11:27:45.060Z",
+            "mag": 7.5,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000fshy",
+            "time": "2007-11-14T15:40:50.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 49
+          },
+          {
+            "id": "usp000gz8j",
+            "time": "2009-07-15T09:22:29.030Z",
+            "mag": 7.8,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000h2gd",
+            "time": "2009-10-07T22:18:51.240Z",
+            "mag": 7.8,
+            "n_pos_cells": 128
+          },
+          {
+            "id": "usp000hgmq",
+            "time": "2010-07-23T23:15:10.190Z",
+            "mag": 7.5,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000j48h",
+            "time": "2011-07-06T19:03:18.260Z",
+            "mag": 7.6,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "usp000juhz",
+            "time": "2012-10-28T03:04:08.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "usb000l0gq",
+            "time": "2013-11-17T09:04:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 91
+          },
+          {
+            "id": "usc000rki5",
+            "time": "2014-06-23T20:53:09.700Z",
+            "mag": 7.9,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "us20003k7a",
+            "time": "2015-09-16T22:54:32.860Z",
+            "mag": 8.3,
+            "n_pos_cells": 82
+          },
+          {
+            "id": "us100068jg",
+            "time": "2016-07-29T21:18:24.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 43
+          },
+          {
+            "id": "us10007uph",
+            "time": "2017-01-22T04:30:22.960Z",
+            "mag": 7.9,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us1000gcii",
+            "time": "2018-08-19T00:19:40.670Z",
+            "mag": 8.2,
+            "n_pos_cells": 110
+          },
+          {
+            "id": "us60007idc",
+            "time": "2020-01-28T19:10:24.918Z",
+            "mag": 7.7,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us7000dflf",
+            "time": "2021-03-04T19:28:33.178Z",
+            "mag": 8.1,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "us7000j36j",
+            "time": "2023-01-09T17:47:35.037Z",
+            "mag": 7.6,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "us7000lff4",
+            "time": "2023-12-02T14:37:04.454Z",
+            "mag": 7.6,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "usp0009txv",
+            "time": "2000-06-04T16:28:26.170Z",
+            "mag": 7.9,
+            "n_pos_cells": 78
+          },
+          {
+            "id": "usp000a7m5",
+            "time": "2001-01-13T17:33:32.380Z",
+            "mag": 7.7,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "usp000azqw",
+            "time": "2002-03-05T21:16:09.130Z",
+            "mag": 7.5,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "ak002e435qpj",
+            "time": "2002-11-03T22:12:41.518Z",
+            "mag": 7.9,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "usp000cd1n",
+            "time": "2003-11-17T06:43:06.800Z",
+            "mag": 7.8,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "usp000dsw1",
+            "time": "2005-06-13T22:44:33.900Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usp000eg5g",
+            "time": "2006-05-03T15:26:40.290Z",
+            "mag": 8.0,
+            "n_pos_cells": 88
+          },
+          {
+            "id": "usp000f83m",
+            "time": "2007-04-01T20:39:58.710Z",
+            "mag": 8.1,
+            "n_pos_cells": 100
+          },
+          {
+            "id": "usp000fu3q",
+            "time": "2007-12-09T07:28:20.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "usp000h05x",
+            "time": "2009-08-10T19:55:38.730Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "official20100227063411530_30",
+            "time": "2010-02-27T06:34:11.530Z",
+            "mag": 8.8,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000hnj4",
+            "time": "2010-10-25T14:42:22.460Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "official20120411083836720_20",
+            "time": "2012-04-11T08:38:36.720Z",
+            "mag": 8.6,
+            "n_pos_cells": 114
+          },
+          {
+            "id": "ak0138esnzr",
+            "time": "2013-01-05T08:58:14.957Z",
+            "mag": 7.5,
+            "n_pos_cells": 16
+          },
+          {
+            "id": "usc000nzvd",
+            "time": "2014-04-01T23:46:47.260Z",
+            "mag": 8.2,
+            "n_pos_cells": 74
+          },
+          {
+            "id": "us10001rvu",
+            "time": "2015-03-29T23:48:31.010Z",
+            "mag": 7.5,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "us10003re5",
+            "time": "2015-10-26T09:09:42.560Z",
+            "mag": 7.5,
+            "n_pos_cells": 24
+          },
+          {
+            "id": "us1000778i",
+            "time": "2016-11-13T11:02:56.340Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us20009x42",
+            "time": "2017-07-17T23:34:13.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us2000h9e2",
+            "time": "2018-09-06T15:49:18.710Z",
+            "mag": 7.9,
+            "n_pos_cells": 13
+          },
+          {
+            "id": "us70008fi4",
+            "time": "2020-03-25T02:49:21.160Z",
+            "mag": 7.5,
+            "n_pos_cells": 26
+          },
+          {
+            "id": "ak0219neiszm",
+            "time": "2021-07-29T06:15:49.188Z",
+            "mag": 8.2,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "us6000jllz",
+            "time": "2023-02-06T01:17:34.342Z",
+            "mag": 7.8,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us6000m0xl",
+            "time": "2024-01-01T07:10:09.476Z",
+            "mag": 7.5,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a3sp",
+            "time": "2000-11-16T07:42:16.930Z",
+            "mag": 7.8,
+            "n_pos_cells": 230
+          },
+          {
+            "id": "official20010623203314130_33",
+            "time": "2001-06-23T20:33:14.130Z",
+            "mag": 8.4,
+            "n_pos_cells": 69
+          },
+          {
+            "id": "usp000ba6m",
+            "time": "2002-08-19T11:08:24.310Z",
+            "mag": 7.7,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000c2ka",
+            "time": "2003-07-15T20:27:50.530Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          },
+          {
+            "id": "usp000db93",
+            "time": "2004-12-23T14:59:04.410Z",
+            "mag": 8.1,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "usp000e12e",
+            "time": "2005-10-08T03:50:40.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000exfn",
+            "time": "2006-11-15T11:14:13.570Z",
+            "mag": 8.3,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "official20070912111026830_34",
+            "time": "2007-09-12T11:10:26.830Z",
+            "mag": 8.4,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "usp000gs2d",
+            "time": "2009-01-03T19:43:50.650Z",
+            "mag": 7.7,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000h237",
+            "time": "2009-09-30T10:16:09.250Z",
+            "mag": 7.6,
+            "n_pos_cells": 20
+          },
+          {
+            "id": "usp000hdwb",
+            "time": "2010-06-12T19:26:50.460Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "usp000hvpa",
+            "time": "2011-03-11T06:15:40.280Z",
+            "mag": 7.9,
+            "n_pos_cells": 508
+          },
+          {
+            "id": "usp000jr83",
+            "time": "2012-08-31T12:47:33.380Z",
+            "mag": 7.6,
+            "n_pos_cells": 108
+          },
+          {
+            "id": "usb000h4jh",
+            "time": "2013-05-24T05:44:48.980Z",
+            "mag": 8.3,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usc000phx5",
+            "time": "2014-04-12T20:14:39.300Z",
+            "mag": 7.6,
+            "n_pos_cells": 109
+          },
+          {
+            "id": "us20002bnf",
+            "time": "2015-05-05T01:44:06.380Z",
+            "mag": 7.5,
+            "n_pos_cells": 120
+          },
+          {
+            "id": "us100040x6",
+            "time": "2015-11-24T22:50:54.370Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "us200081v8",
+            "time": "2016-12-17T10:51:10.500Z",
+            "mag": 7.9,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us2000cmy3",
+            "time": "2018-01-23T09:31:40.890Z",
+            "mag": 7.9,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us1000i2gt",
+            "time": "2018-12-05T04:18:08.420Z",
+            "mag": 7.5,
+            "n_pos_cells": 112
+          },
+          {
+            "id": "us6000c9hg",
+            "time": "2020-10-19T20:54:38.950Z",
+            "mag": 7.6,
+            "n_pos_cells": 29
+          },
+          {
+            "id": "us6000f53e",
+            "time": "2021-08-12T18:35:17.231Z",
+            "mag": 8.1,
+            "n_pos_cells": 213
+          },
+          {
+            "id": "us6000kawn",
+            "time": "2023-05-10T16:02:00.334Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          }
+        ]
+      },
+      "test": {
+        "n_events": 23,
+        "start_time": "2000-11-16T04:54:56.740Z",
+        "end_time": "2023-02-06T10:24:48.811Z",
+        "n_cells": 36800,
+        "n_pos_cells": 2195,
+        "n_aftershocks_in_grid": 9174,
+        "pos_prevalence": 0.059646739130434785,
+        "event_ids": [
+          "usp000a3qq",
+          "usp000a8ds",
+          "usp000ba6g",
+          "usp000bnyr",
+          "usp000d85g",
+          "usp000dz2j",
+          "usp000ensm",
+          "usp000fjta",
+          "usp000g650",
+          "usp000h1ys",
+          "usp000hat0",
+          "official20110311054624120_30",
+          "usp000jhjb",
+          "usc000f1s0",
+          "usc000p27i",
+          "us20002926",
+          "us100040ww",
+          "us20007z80",
+          "us2000ahv0",
+          "us1000h3p4",
+          "us7000asvb",
+          "us6000f4ly",
+          "us6000jlqa"
+        ],
+        "events": [
+          {
+            "id": "usp000a3qq",
+            "time": "2000-11-16T04:54:56.740Z",
+            "mag": 8.0,
+            "n_pos_cells": 173
+          },
+          {
+            "id": "usp000a8ds",
+            "time": "2001-01-26T03:16:40.500Z",
+            "mag": 7.7,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "usp000ba6g",
+            "time": "2002-08-19T11:01:01.190Z",
+            "mag": 7.7,
+            "n_pos_cells": 37
+          },
+          {
+            "id": "usp000bnyr",
+            "time": "2003-01-22T02:06:34.610Z",
+            "mag": 7.6,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000d85g",
+            "time": "2004-11-11T21:26:41.150Z",
+            "mag": 7.5,
+            "n_pos_cells": 76
+          },
+          {
+            "id": "usp000dz2j",
+            "time": "2005-09-09T07:26:43.730Z",
+            "mag": 7.6,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "usp000ensm",
+            "time": "2006-07-17T08:19:26.680Z",
+            "mag": 7.7,
+            "n_pos_cells": 146
+          },
+          {
+            "id": "usp000fjta",
+            "time": "2007-08-15T23:40:57.890Z",
+            "mag": 8.0,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000g650",
+            "time": "2008-05-12T06:28:01.570Z",
+            "mag": 7.9,
+            "n_pos_cells": 99
+          },
+          {
+            "id": "usp000h1ys",
+            "time": "2009-09-29T17:48:10.990Z",
+            "mag": 8.1,
+            "n_pos_cells": 107
+          },
+          {
+            "id": "usp000hat0",
+            "time": "2010-04-06T22:15:01.580Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "official20110311054624120_30",
+            "time": "2011-03-11T05:46:24.120Z",
+            "mag": 9.1,
+            "n_pos_cells": 90
+          },
+          {
+            "id": "usp000jhjb",
+            "time": "2012-04-11T10:43:10.850Z",
+            "mag": 8.2,
+            "n_pos_cells": 157
+          },
+          {
+            "id": "usc000f1s0",
+            "time": "2013-02-06T01:12:25.830Z",
+            "mag": 8.0,
+            "n_pos_cells": 117
+          },
+          {
+            "id": "usc000p27i",
+            "time": "2014-04-03T02:43:13.110Z",
+            "mag": 7.7,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "us20002926",
+            "time": "2015-04-25T06:11:25.950Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us100040ww",
+            "time": "2015-11-24T22:45:38.880Z",
+            "mag": 7.6,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us20007z80",
+            "time": "2016-12-08T17:38:46.280Z",
+            "mag": 7.8,
+            "n_pos_cells": 105
+          },
+          {
+            "id": "us2000ahv0",
+            "time": "2017-09-08T04:49:19.180Z",
+            "mag": 8.2,
+            "n_pos_cells": 85
+          },
+          {
+            "id": "us1000h3p4",
+            "time": "2018-09-28T10:02:45.250Z",
+            "mag": 7.5,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us7000asvb",
+            "time": "2020-07-22T06:12:44.810Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us6000f4ly",
+            "time": "2021-08-12T18:32:52.464Z",
+            "mag": 7.5,
+            "n_pos_cells": 329
+          },
+          {
+            "id": "us6000jlqa",
+            "time": "2023-02-06T10:24:48.811Z",
+            "mag": 7.5,
+            "n_pos_cells": 144
+          }
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "train": {
+        "n_events": 95,
+        "start_time": "2000-03-28T11:00:22.510Z",
+        "end_time": "2023-02-06T10:24:48.811Z",
+        "n_cells": 152000,
+        "n_pos_cells": 7742,
+        "n_aftershocks_in_grid": 27405,
+        "pos_prevalence": 0.05093421052631579,
+        "event_ids": [
+          "usp0009qb4",
+          "usp000a45f",
+          "usp000aj40",
+          "usp000bbpf",
+          "usp000c41f",
+          "official20041226005853450_30",
+          "usp000e8ys",
+          "usp000f2ab",
+          "usp000fn2b",
+          "usp000gv5p",
+          "usp000h2g9",
+          "usp000hgmh",
+          "usp000hvpg",
+          "usp000jrsw",
+          "usb000jyiv",
+          "usb000pr89",
+          "us20002ki3",
+          "us20005j32",
+          "us10007mn3",
+          "us2000d7q6",
+          "us70003kyy",
+          "us6000dg77",
+          "us6000iitd",
+          "us6000kd0n",
+          "usp0009sbh",
+          "usp000a70h",
+          "usp000asvm",
+          "usp000be54",
+          "official20030925195006360_27",
+          "official20050328160936530_30",
+          "usp000ef1h",
+          "usp000f34b",
+          "usp000fshy",
+          "usp000gz8j",
+          "usp000h2gd",
+          "usp000hgmq",
+          "usp000j48h",
+          "usp000juhz",
+          "usb000l0gq",
+          "usc000rki5",
+          "us20003k7a",
+          "us100068jg",
+          "us10007uph",
+          "us1000gcii",
+          "us60007idc",
+          "us7000dflf",
+          "us7000j36j",
+          "us7000lff4",
+          "usp0009txv",
+          "usp000a7m5",
+          "usp000azqw",
+          "ak002e435qpj",
+          "usp000cd1n",
+          "usp000dsw1",
+          "usp000eg5g",
+          "usp000f83m",
+          "usp000fu3q",
+          "usp000h05x",
+          "official20100227063411530_30",
+          "usp000hnj4",
+          "official20120411083836720_20",
+          "ak0138esnzr",
+          "usc000nzvd",
+          "us10001rvu",
+          "us10003re5",
+          "us1000778i",
+          "us20009x42",
+          "us2000h9e2",
+          "us70008fi4",
+          "ak0219neiszm",
+          "us6000jllz",
+          "us6000m0xl",
+          "usp000a3qq",
+          "usp000a8ds",
+          "usp000ba6g",
+          "usp000bnyr",
+          "usp000d85g",
+          "usp000dz2j",
+          "usp000ensm",
+          "usp000fjta",
+          "usp000g650",
+          "usp000h1ys",
+          "usp000hat0",
+          "official20110311054624120_30",
+          "usp000jhjb",
+          "usc000f1s0",
+          "usc000p27i",
+          "us20002926",
+          "us100040ww",
+          "us20007z80",
+          "us2000ahv0",
+          "us1000h3p4",
+          "us7000asvb",
+          "us6000f4ly",
+          "us6000jlqa"
+        ],
+        "events": [
+          {
+            "id": "usp0009qb4",
+            "time": "2000-03-28T11:00:22.510Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000a45f",
+            "time": "2000-11-17T21:01:56.490Z",
+            "mag": 7.8,
+            "n_pos_cells": 207
+          },
+          {
+            "id": "usp000aj40",
+            "time": "2001-07-07T09:38:43.520Z",
+            "mag": 7.6,
+            "n_pos_cells": 72
+          },
+          {
+            "id": "usp000bbpf",
+            "time": "2002-09-08T18:44:23.710Z",
+            "mag": 7.6,
+            "n_pos_cells": 45
+          },
+          {
+            "id": "usp000c41f",
+            "time": "2003-08-04T04:37:20.130Z",
+            "mag": 7.6,
+            "n_pos_cells": 42
+          },
+          {
+            "id": "official20041226005853450_30",
+            "time": "2004-12-26T00:58:53.450Z",
+            "mag": 9.1,
+            "n_pos_cells": 104
+          },
+          {
+            "id": "usp000e8ys",
+            "time": "2006-01-27T16:58:53.670Z",
+            "mag": 7.6,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000f2ab",
+            "time": "2007-01-13T04:23:21.160Z",
+            "mag": 8.1,
+            "n_pos_cells": 96
+          },
+          {
+            "id": "usp000fn2b",
+            "time": "2007-09-12T23:49:03.720Z",
+            "mag": 7.9,
+            "n_pos_cells": 133
+          },
+          {
+            "id": "usp000gv5p",
+            "time": "2009-03-19T18:17:40.470Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000h2g9",
+            "time": "2009-10-07T22:03:14.470Z",
+            "mag": 7.7,
+            "n_pos_cells": 142
+          },
+          {
+            "id": "usp000hgmh",
+            "time": "2010-07-23T22:51:11.840Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000hvpg",
+            "time": "2011-03-11T06:25:50.300Z",
+            "mag": 7.7,
+            "n_pos_cells": 658
+          },
+          {
+            "id": "usp000jrsw",
+            "time": "2012-09-05T14:42:07.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 28
+          },
+          {
+            "id": "usb000jyiv",
+            "time": "2013-09-24T11:29:47.970Z",
+            "mag": 7.7,
+            "n_pos_cells": 30
+          },
+          {
+            "id": "usb000pr89",
+            "time": "2014-04-19T13:28:00.810Z",
+            "mag": 7.5,
+            "n_pos_cells": 156
+          },
+          {
+            "id": "us20002ki3",
+            "time": "2015-05-30T11:23:02.110Z",
+            "mag": 7.8,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "us20005j32",
+            "time": "2016-04-16T23:58:36.980Z",
+            "mag": 7.8,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "us10007mn3",
+            "time": "2016-12-25T14:22:27.010Z",
+            "mag": 7.6,
+            "n_pos_cells": 14
+          },
+          {
+            "id": "us2000d7q6",
+            "time": "2018-02-25T17:44:44.140Z",
+            "mag": 7.5,
+            "n_pos_cells": 118
+          },
+          {
+            "id": "us70003kyy",
+            "time": "2019-05-14T12:58:25.939Z",
+            "mag": 7.6,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us6000dg77",
+            "time": "2021-02-10T13:19:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 136
+          },
+          {
+            "id": "us6000iitd",
+            "time": "2022-09-10T23:47:00.233Z",
+            "mag": 7.6,
+            "n_pos_cells": 27
+          },
+          {
+            "id": "us6000kd0n",
+            "time": "2023-05-19T02:57:03.172Z",
+            "mag": 7.7,
+            "n_pos_cells": 92
+          },
+          {
+            "id": "usp0009sbh",
+            "time": "2000-05-04T04:21:16.210Z",
+            "mag": 7.6,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a70h",
+            "time": "2001-01-01T06:57:04.170Z",
+            "mag": 7.5,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000asvm",
+            "time": "2001-11-14T09:26:10.010Z",
+            "mag": 7.8,
+            "n_pos_cells": 15
+          },
+          {
+            "id": "usp000be54",
+            "time": "2002-10-10T10:50:20.570Z",
+            "mag": 7.6,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "official20030925195006360_27",
+            "time": "2003-09-25T19:50:06.360Z",
+            "mag": 8.16,
+            "n_pos_cells": 63
+          },
+          {
+            "id": "official20050328160936530_30",
+            "time": "2005-03-28T16:09:36.530Z",
+            "mag": 8.6,
+            "n_pos_cells": 169
+          },
+          {
+            "id": "usp000ef1h",
+            "time": "2006-04-20T23:25:02.150Z",
+            "mag": 7.6,
+            "n_pos_cells": 84
+          },
+          {
+            "id": "usp000f34b",
+            "time": "2007-01-21T11:27:45.060Z",
+            "mag": 7.5,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000fshy",
+            "time": "2007-11-14T15:40:50.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 49
+          },
+          {
+            "id": "usp000gz8j",
+            "time": "2009-07-15T09:22:29.030Z",
+            "mag": 7.8,
+            "n_pos_cells": 40
+          },
+          {
+            "id": "usp000h2gd",
+            "time": "2009-10-07T22:18:51.240Z",
+            "mag": 7.8,
+            "n_pos_cells": 128
+          },
+          {
+            "id": "usp000hgmq",
+            "time": "2010-07-23T23:15:10.190Z",
+            "mag": 7.5,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "usp000j48h",
+            "time": "2011-07-06T19:03:18.260Z",
+            "mag": 7.6,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "usp000juhz",
+            "time": "2012-10-28T03:04:08.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "usb000l0gq",
+            "time": "2013-11-17T09:04:55.530Z",
+            "mag": 7.7,
+            "n_pos_cells": 91
+          },
+          {
+            "id": "usc000rki5",
+            "time": "2014-06-23T20:53:09.700Z",
+            "mag": 7.9,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "us20003k7a",
+            "time": "2015-09-16T22:54:32.860Z",
+            "mag": 8.3,
+            "n_pos_cells": 82
+          },
+          {
+            "id": "us100068jg",
+            "time": "2016-07-29T21:18:24.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 43
+          },
+          {
+            "id": "us10007uph",
+            "time": "2017-01-22T04:30:22.960Z",
+            "mag": 7.9,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "us1000gcii",
+            "time": "2018-08-19T00:19:40.670Z",
+            "mag": 8.2,
+            "n_pos_cells": 110
+          },
+          {
+            "id": "us60007idc",
+            "time": "2020-01-28T19:10:24.918Z",
+            "mag": 7.7,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us7000dflf",
+            "time": "2021-03-04T19:28:33.178Z",
+            "mag": 8.1,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "us7000j36j",
+            "time": "2023-01-09T17:47:35.037Z",
+            "mag": 7.6,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "us7000lff4",
+            "time": "2023-12-02T14:37:04.454Z",
+            "mag": 7.6,
+            "n_pos_cells": 168
+          },
+          {
+            "id": "usp0009txv",
+            "time": "2000-06-04T16:28:26.170Z",
+            "mag": 7.9,
+            "n_pos_cells": 78
+          },
+          {
+            "id": "usp000a7m5",
+            "time": "2001-01-13T17:33:32.380Z",
+            "mag": 7.7,
+            "n_pos_cells": 52
+          },
+          {
+            "id": "usp000azqw",
+            "time": "2002-03-05T21:16:09.130Z",
+            "mag": 7.5,
+            "n_pos_cells": 46
+          },
+          {
+            "id": "ak002e435qpj",
+            "time": "2002-11-03T22:12:41.518Z",
+            "mag": 7.9,
+            "n_pos_cells": 35
+          },
+          {
+            "id": "usp000cd1n",
+            "time": "2003-11-17T06:43:06.800Z",
+            "mag": 7.8,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "usp000dsw1",
+            "time": "2005-06-13T22:44:33.900Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usp000eg5g",
+            "time": "2006-05-03T15:26:40.290Z",
+            "mag": 8.0,
+            "n_pos_cells": 88
+          },
+          {
+            "id": "usp000f83m",
+            "time": "2007-04-01T20:39:58.710Z",
+            "mag": 8.1,
+            "n_pos_cells": 100
+          },
+          {
+            "id": "usp000fu3q",
+            "time": "2007-12-09T07:28:20.820Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "usp000h05x",
+            "time": "2009-08-10T19:55:38.730Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "official20100227063411530_30",
+            "time": "2010-02-27T06:34:11.530Z",
+            "mag": 8.8,
+            "n_pos_cells": 94
+          },
+          {
+            "id": "usp000hnj4",
+            "time": "2010-10-25T14:42:22.460Z",
+            "mag": 7.8,
+            "n_pos_cells": 65
+          },
+          {
+            "id": "official20120411083836720_20",
+            "time": "2012-04-11T08:38:36.720Z",
+            "mag": 8.6,
+            "n_pos_cells": 114
+          },
+          {
+            "id": "ak0138esnzr",
+            "time": "2013-01-05T08:58:14.957Z",
+            "mag": 7.5,
+            "n_pos_cells": 16
+          },
+          {
+            "id": "usc000nzvd",
+            "time": "2014-04-01T23:46:47.260Z",
+            "mag": 8.2,
+            "n_pos_cells": 74
+          },
+          {
+            "id": "us10001rvu",
+            "time": "2015-03-29T23:48:31.010Z",
+            "mag": 7.5,
+            "n_pos_cells": 75
+          },
+          {
+            "id": "us10003re5",
+            "time": "2015-10-26T09:09:42.560Z",
+            "mag": 7.5,
+            "n_pos_cells": 24
+          },
+          {
+            "id": "us1000778i",
+            "time": "2016-11-13T11:02:56.340Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us20009x42",
+            "time": "2017-07-17T23:34:13.740Z",
+            "mag": 7.7,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us2000h9e2",
+            "time": "2018-09-06T15:49:18.710Z",
+            "mag": 7.9,
+            "n_pos_cells": 13
+          },
+          {
+            "id": "us70008fi4",
+            "time": "2020-03-25T02:49:21.160Z",
+            "mag": 7.5,
+            "n_pos_cells": 26
+          },
+          {
+            "id": "ak0219neiszm",
+            "time": "2021-07-29T06:15:49.188Z",
+            "mag": 8.2,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "us6000jllz",
+            "time": "2023-02-06T01:17:34.342Z",
+            "mag": 7.8,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us6000m0xl",
+            "time": "2024-01-01T07:10:09.476Z",
+            "mag": 7.5,
+            "n_pos_cells": 44
+          },
+          {
+            "id": "usp000a3qq",
+            "time": "2000-11-16T04:54:56.740Z",
+            "mag": 8.0,
+            "n_pos_cells": 173
+          },
+          {
+            "id": "usp000a8ds",
+            "time": "2001-01-26T03:16:40.500Z",
+            "mag": 7.7,
+            "n_pos_cells": 32
+          },
+          {
+            "id": "usp000ba6g",
+            "time": "2002-08-19T11:01:01.190Z",
+            "mag": 7.7,
+            "n_pos_cells": 37
+          },
+          {
+            "id": "usp000bnyr",
+            "time": "2003-01-22T02:06:34.610Z",
+            "mag": 7.6,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000d85g",
+            "time": "2004-11-11T21:26:41.150Z",
+            "mag": 7.5,
+            "n_pos_cells": 76
+          },
+          {
+            "id": "usp000dz2j",
+            "time": "2005-09-09T07:26:43.730Z",
+            "mag": 7.6,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "usp000ensm",
+            "time": "2006-07-17T08:19:26.680Z",
+            "mag": 7.7,
+            "n_pos_cells": 146
+          },
+          {
+            "id": "usp000fjta",
+            "time": "2007-08-15T23:40:57.890Z",
+            "mag": 8.0,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000g650",
+            "time": "2008-05-12T06:28:01.570Z",
+            "mag": 7.9,
+            "n_pos_cells": 99
+          },
+          {
+            "id": "usp000h1ys",
+            "time": "2009-09-29T17:48:10.990Z",
+            "mag": 8.1,
+            "n_pos_cells": 107
+          },
+          {
+            "id": "usp000hat0",
+            "time": "2010-04-06T22:15:01.580Z",
+            "mag": 7.8,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "official20110311054624120_30",
+            "time": "2011-03-11T05:46:24.120Z",
+            "mag": 9.1,
+            "n_pos_cells": 90
+          },
+          {
+            "id": "usp000jhjb",
+            "time": "2012-04-11T10:43:10.850Z",
+            "mag": 8.2,
+            "n_pos_cells": 157
+          },
+          {
+            "id": "usc000f1s0",
+            "time": "2013-02-06T01:12:25.830Z",
+            "mag": 8.0,
+            "n_pos_cells": 117
+          },
+          {
+            "id": "usc000p27i",
+            "time": "2014-04-03T02:43:13.110Z",
+            "mag": 7.7,
+            "n_pos_cells": 95
+          },
+          {
+            "id": "us20002926",
+            "time": "2015-04-25T06:11:25.950Z",
+            "mag": 7.8,
+            "n_pos_cells": 68
+          },
+          {
+            "id": "us100040ww",
+            "time": "2015-11-24T22:45:38.880Z",
+            "mag": 7.6,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "us20007z80",
+            "time": "2016-12-08T17:38:46.280Z",
+            "mag": 7.8,
+            "n_pos_cells": 105
+          },
+          {
+            "id": "us2000ahv0",
+            "time": "2017-09-08T04:49:19.180Z",
+            "mag": 8.2,
+            "n_pos_cells": 85
+          },
+          {
+            "id": "us1000h3p4",
+            "time": "2018-09-28T10:02:45.250Z",
+            "mag": 7.5,
+            "n_pos_cells": 81
+          },
+          {
+            "id": "us7000asvb",
+            "time": "2020-07-22T06:12:44.810Z",
+            "mag": 7.8,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us6000f4ly",
+            "time": "2021-08-12T18:32:52.464Z",
+            "mag": 7.5,
+            "n_pos_cells": 329
+          },
+          {
+            "id": "us6000jlqa",
+            "time": "2023-02-06T10:24:48.811Z",
+            "mag": 7.5,
+            "n_pos_cells": 144
+          }
+        ]
+      },
+      "test": {
+        "n_events": 23,
+        "start_time": "2000-11-16T07:42:16.930Z",
+        "end_time": "2023-05-10T16:02:00.334Z",
+        "n_cells": 36800,
+        "n_pos_cells": 2163,
+        "n_aftershocks_in_grid": 8150,
+        "pos_prevalence": 0.058777173913043476,
+        "event_ids": [
+          "usp000a3sp",
+          "official20010623203314130_33",
+          "usp000ba6m",
+          "usp000c2ka",
+          "usp000db93",
+          "usp000e12e",
+          "usp000exfn",
+          "official20070912111026830_34",
+          "usp000gs2d",
+          "usp000h237",
+          "usp000hdwb",
+          "usp000hvpa",
+          "usp000jr83",
+          "usb000h4jh",
+          "usc000phx5",
+          "us20002bnf",
+          "us100040x6",
+          "us200081v8",
+          "us2000cmy3",
+          "us1000i2gt",
+          "us6000c9hg",
+          "us6000f53e",
+          "us6000kawn"
+        ],
+        "events": [
+          {
+            "id": "usp000a3sp",
+            "time": "2000-11-16T07:42:16.930Z",
+            "mag": 7.8,
+            "n_pos_cells": 230
+          },
+          {
+            "id": "official20010623203314130_33",
+            "time": "2001-06-23T20:33:14.130Z",
+            "mag": 8.4,
+            "n_pos_cells": 69
+          },
+          {
+            "id": "usp000ba6m",
+            "time": "2002-08-19T11:08:24.310Z",
+            "mag": 7.7,
+            "n_pos_cells": 21
+          },
+          {
+            "id": "usp000c2ka",
+            "time": "2003-07-15T20:27:50.530Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          },
+          {
+            "id": "usp000db93",
+            "time": "2004-12-23T14:59:04.410Z",
+            "mag": 8.1,
+            "n_pos_cells": 18
+          },
+          {
+            "id": "usp000e12e",
+            "time": "2005-10-08T03:50:40.800Z",
+            "mag": 7.6,
+            "n_pos_cells": 60
+          },
+          {
+            "id": "usp000exfn",
+            "time": "2006-11-15T11:14:13.570Z",
+            "mag": 8.3,
+            "n_pos_cells": 123
+          },
+          {
+            "id": "official20070912111026830_34",
+            "time": "2007-09-12T11:10:26.830Z",
+            "mag": 8.4,
+            "n_pos_cells": 79
+          },
+          {
+            "id": "usp000gs2d",
+            "time": "2009-01-03T19:43:50.650Z",
+            "mag": 7.7,
+            "n_pos_cells": 59
+          },
+          {
+            "id": "usp000h237",
+            "time": "2009-09-30T10:16:09.250Z",
+            "mag": 7.6,
+            "n_pos_cells": 20
+          },
+          {
+            "id": "usp000hdwb",
+            "time": "2010-06-12T19:26:50.460Z",
+            "mag": 7.5,
+            "n_pos_cells": 22
+          },
+          {
+            "id": "usp000hvpa",
+            "time": "2011-03-11T06:15:40.280Z",
+            "mag": 7.9,
+            "n_pos_cells": 508
+          },
+          {
+            "id": "usp000jr83",
+            "time": "2012-08-31T12:47:33.380Z",
+            "mag": 7.6,
+            "n_pos_cells": 108
+          },
+          {
+            "id": "usb000h4jh",
+            "time": "2013-05-24T05:44:48.980Z",
+            "mag": 8.3,
+            "n_pos_cells": 25
+          },
+          {
+            "id": "usc000phx5",
+            "time": "2014-04-12T20:14:39.300Z",
+            "mag": 7.6,
+            "n_pos_cells": 109
+          },
+          {
+            "id": "us20002bnf",
+            "time": "2015-05-05T01:44:06.380Z",
+            "mag": 7.5,
+            "n_pos_cells": 120
+          },
+          {
+            "id": "us100040x6",
+            "time": "2015-11-24T22:50:54.370Z",
+            "mag": 7.6,
+            "n_pos_cells": 19
+          },
+          {
+            "id": "us200081v8",
+            "time": "2016-12-17T10:51:10.500Z",
+            "mag": 7.9,
+            "n_pos_cells": 137
+          },
+          {
+            "id": "us2000cmy3",
+            "time": "2018-01-23T09:31:40.890Z",
+            "mag": 7.9,
+            "n_pos_cells": 36
+          },
+          {
+            "id": "us1000i2gt",
+            "time": "2018-12-05T04:18:08.420Z",
+            "mag": 7.5,
+            "n_pos_cells": 112
+          },
+          {
+            "id": "us6000c9hg",
+            "time": "2020-10-19T20:54:38.950Z",
+            "mag": 7.6,
+            "n_pos_cells": 29
+          },
+          {
+            "id": "us6000f53e",
+            "time": "2021-08-12T18:35:17.231Z",
+            "mag": 8.1,
+            "n_pos_cells": 213
+          },
+          {
+            "id": "us6000kawn",
+            "time": "2023-05-10T16:02:00.334Z",
+            "mag": 7.6,
+            "n_pos_cells": 23
+          }
+        ]
+      }
+    }
+  ]
+}
